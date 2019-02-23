@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#root {
+  height: 100%;
+}
+
 .wrapper {
   background-color: black;
   height: 100%;
@@ -10,7 +14,7 @@
 
 .navigation-bar {
   height: 35px;
-  width: 550px;
+  width: 50%;
   color: white;
   font-size: 20px;
   margin: auto;
@@ -149,10 +153,10 @@
 }
 
 .middle-shape {
-  width: 500px;
+  width: 35%;
   height: 500px;
   text-align: center;
-  margin: 141px auto 0 auto;
+  margin: 11% auto 0 auto;
   position: relative;
 }
 
