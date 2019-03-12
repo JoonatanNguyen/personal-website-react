@@ -11,17 +11,41 @@
   height: 100%;
   width: 100%;
 }
+.navigation-bar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bar-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 
 .navigation-bar {
-  height: 35px;
+  height: 55px;
   width: 50%;
   color: white;
   font-size: 20px;
   margin: auto;
+  border-bottom: 1px solid grey;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  border-bottom: 1px solid grey;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.not-home {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 10px;
+  width: 37%;
+  border-bottom: 0 solid black;
 }
 
 .container {
@@ -179,6 +203,7 @@
   top: 25px;
   left: 25px;
   border: 3px solid #ffc722;
+  background-image: url("./Assets/images/star_background.gif");
 }
 
 .square-shape {
@@ -329,3 +354,5 @@
   -ms-transform: rotate(315deg);
   -o-transform: rotate(315deg);
 }
+
+

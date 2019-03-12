@@ -10,7 +10,7 @@ const MiddleShape = () => (
 		<div className="line-two"/>
 		<div className="line-three"/>
 		<div className="square-shape"/>
-		<div className="diamond-shape rotate-first" />
+		<div className="diamond-shape rotate-first"/>
 	</div>
 );
 

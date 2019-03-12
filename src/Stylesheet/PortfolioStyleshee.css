@@ -1,0 +1,185 @@
+.portfolio-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.first-project {
+	width: 17%;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 3px solid #ffc722;
+	position: relative;
+}
+
+.second-project {
+	width: 17%;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 3px solid #467fd7;
+	position: relative;
+}
+
+.third-project {
+	width: 17%;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 3px solid #ffc722;
+	position: relative;
+}
+
+.fourth-project {
+	width: 17%;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 3px solid #467fd7;
+	position: relative;
+}
+
+.fifth-project {
+	width: 17%;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 2%;
+	border: 3px solid #ffc722;
+	position: relative;
+}
+
+.project-info-top {
+	width: 100%;
+	height: 50%;
+}
+
+.project-info-bottom {
+	width: 100%;
+	height: 50%;
+}
+
+.overlay-bottom {
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	background-color: #ffc722;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;
+}
+
+.overlay-top {
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	background-color: #467fd7;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;
+}
+
+.second-project:hover .overlay-top {
+	height: 50%;
+}
+
+.fourth-project:hover .overlay-top {
+	height: 50%;
+}
+
+.first-project:hover .overlay-bottom {
+	bottom: 0;
+	height: 50%;
+}
+
+.third-project:hover .overlay-bottom {
+	bottom: 0;
+	height: 50%;
+}
+
+.fifth-project:hover .overlay-bottom {
+	bottom: 0;
+	height: 50%;
+}
+
+.project-image-top {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.project-image-top img {
+	width: 100%;
+	height: 100%;
+	transition: transform .5s;
+}
+
+.first-project:hover img {
+	transform: scale(1.1);
+}
+
+.third-project:hover img {
+	transform: scale(1.1);
+}
+
+.fifth-project:hover img {
+	transform: scale(1.1);
+}
+
+.project-image-bottom {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.project-image-bottom img {
+	width: 100%;
+	height: 100%;
+	transition: transform .5s;
+}
+
+.second-project:hover img {
+	transform: scale(1.1);
+}
+
+.fourth-project:hover img {
+	transform: scale(1.1);
+}
+
+/*project description*/
+.project-content {
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*justify-content: space-around;*/
+	position: relative;
+	/*transform: rotate(-90deg);*/
+}
+
+.project-number {
+	color: #467fd7;
+	border-bottom: 3px solid #467fd7;
+	height: 30px;
+	position: absolute;
+	left: 30px;
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	/*transform: rotate(90deg);*/
+}
+
+.project-name {
+	color: white;
+	width: 100%;
+	font-size: 33px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 115px;
+	left: 15%;
+	transform: rotate(-90deg);
+}
