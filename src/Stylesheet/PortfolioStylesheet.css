@@ -6,7 +6,7 @@
 
 .first-project {
 	width: 17%;
-	height: 600px;
+	height: 565px;
 	margin-top: 2%;
 	margin-left: 2%;
 	border: 3px solid #ffc722;
@@ -15,7 +15,7 @@
 
 .second-project {
 	width: 17%;
-	height: 600px;
+	height: 565px;
 	margin-top: 2%;
 	margin-left: 2%;
 	border: 3px solid #467fd7;
@@ -24,7 +24,7 @@
 
 .third-project {
 	width: 17%;
-	height: 600px;
+	height: 565px;
 	margin-top: 2%;
 	margin-left: 2%;
 	border: 3px solid #ffc722;
@@ -33,7 +33,7 @@
 
 .fourth-project {
 	width: 17%;
-	height: 600px;
+	height: 565px;
 	margin-top: 2%;
 	margin-left: 2%;
 	border: 3px solid #467fd7;
@@ -42,7 +42,7 @@
 
 .fifth-project {
 	width: 17%;
-	height: 600px;
+	height: 565px;
 	margin-top: 2%;
 	margin-left: 2%;
 	border: 3px solid #ffc722;
@@ -219,23 +219,41 @@
 	margin-top: 70px
 }
 
-.project-content-top button{
-	margin-top: 30px;
+.see-more-top, .see-more {
+	display: flex;
+}
+
+.see-more-top a {
+	padding-top: 10px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: #467fd7;
+}
+
+.see-more a {
+	padding-top: 10px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: #ffc722;
+}
+
+.project-content-top .see-more-top{
+	margin: 30px auto 0 auto;
+	display: flex;
 	height: 40px;
 	width: 100px;
-	color: #467fd7;
 	font-size: 15px;
 	font-weight: bold;
 	border: 3px solid #ffc722;
 	background-color: black;
 }
 
-.project-content-top button:hover {
+.project-content-top .see-more-top:hover {
 	transform: scale(1.1);
 	cursor: pointer;
 }
 
-.project-content button {
+.project-content .see-more {
 	margin: 30px auto 0 auto;
 	height: 40px;
 	width: 100px;
@@ -248,7 +266,45 @@
 	background-color: black;
 }
 
-.project-content button:hover {
+.project-content .see-more:hover {
 	transform: scale(1.1);
 	cursor: pointer;
+}
+
+/*footer contact*/
+.contact-footer {
+	width: 200px;
+	height: 31px;
+	position: absolute;
+	bottom: 12px;
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-linkedin-logo {
+	width: 30px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.divider {
+	position: relative;
+	width: 1px;
+	height: 14px;
+	background: white;
+	margin: 13px 10px;
+}
+
+.contact-email-logo {
+	width: 36px;
+	height: 40px;
+}
+
+.label-contact {
+	margin-top: 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "UniversLTStd",sans-serif;
 }

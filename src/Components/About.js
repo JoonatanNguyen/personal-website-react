@@ -7,6 +7,11 @@ import BackgroundImage from '../Assets/images/black-polygonal-background.jpg';
 import ProfilePictureWinter from '../Assets/images/profile-picture-winter.jpg';
 import LinkedInLogo from '../Assets/images/linkedin-logo.jpg';
 import MailLogo from '../Assets/images/email-logo.jpg';
+import RecipeSearchPic from '../Assets/images/recipe-project-picture.jpeg';
+import TrainInfoPic from '../Assets/images/train-project-picture-one.jpg';
+import ClinicProjectPic from '../Assets/images/clinic-project-picture.jpeg';
+import UPayProjectPic from '../Assets/images/online-payment-project-picture.jpg';
+import InsuranceClaimPic from '../Assets/images/insurance-claim-project-picture.jpg';
 
 class About extends React.Component {
 	constructor(props) {
@@ -61,7 +66,49 @@ class About extends React.Component {
 				</div>
 				<div className='about-my-personal-work'>
 					<h2>My personal works</h2>
-					<p>Have a look at my personal work by clicking this button</p>
+					<p>Have a look at my personal work</p>
+					<div className='about-project-show'>
+						<div className='about-project first-project-show yellow-border-project'>
+							<img src={ClinicProjectPic} alt='clinic'/>
+							<div className='project-label'>
+								<div className='text-yellow'>
+									<a href='#'>Clinic Screen</a>
+								</div>
+							</div>
+						</div>
+						<div className='about-project second-project-show blue-border-project'>
+							<img src={RecipeSearchPic} alt='food'/>
+							<div className='project-label'>
+								<div className='text-blue'>
+									<a href='#'>Recipe Search</a>
+								</div>
+							</div>
+						</div>
+						<div className='about-project third-project-show yellow-border-project'>
+							<img src={TrainInfoPic} alt='train'/>
+							<div className='project-label'>
+								<div className='text-yellow'>
+									<a href='#'>Train Web App</a>
+								</div>
+							</div>
+						</div>
+						<div className='about-project fourth-project-show blue-border-project'>
+							<img src={UPayProjectPic} alt='payment methods'/>
+							<div className='project-label'>
+								<div className='text-blue'>
+									<a href='#'>UPay</a>
+								</div>
+							</div>
+						</div>
+						<div className='about-project fifth-project-show yellow-border-project'>
+							<img src={InsuranceClaimPic} alt='claim form'/>
+							<div className='project-label'>
+								<div className='text-yellow'>
+									<a href='#'>Insurance Claim</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div className='footer' data-aos='fade-up'>
 					<div className='footer-text'>

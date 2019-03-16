@@ -10,6 +10,7 @@ import Contact from './Components/Contact';
 import Header from './Components/Header';
 import RoutePathConstants from './Constants/RoutePathConstants';
 import history from './history';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const { home, about, portfolio, resume, contact } = RoutePathConstants;
 
@@ -19,13 +20,23 @@ class App extends Component {
       <Router history={history}>
         <div className="App wrapper">
           <Header/>
-          <Switch>
-            <Route path={`/${home}`} component={Home} exact/>
-            <Route path={`/${about}`} component={About}/>
-            <Route path={`/${portfolio}`} component={Portfolio}/>
-            <Route path={`/${resume}`} component={Resume}/>
-            <Route path={`/${contact}`} component={Contact}/>
-          </Switch>
+          <Route render={({location})=> (
+            <TransitionGroup>
+              <CSSTransition
+                key={location.key}
+                timeout={450}
+                classNames="fade"
+              >
+                <Switch location={location}>
+                  <Route path={`/${home}`} component={Home} exact/>
+                  <Route path={`/${about}`} component={About} exact/>
+                  <Route path={`/${portfolio}`} component={Portfolio} exact/>
+                  <Route path={`/${resume}`} component={Resume} exact/>
+                  <Route path={`/${contact}`} component={Contact} exact/>
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )}/>
         </div>
       </Router>
     );

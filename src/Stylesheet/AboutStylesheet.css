@@ -75,7 +75,7 @@
 
 .about-my-personal-work {
 	width: 100%;
-	height: 300px;
+	height: 540px;
 	background-color: #A9A9A9;
 }
 
@@ -96,6 +96,94 @@
 	opacity: 0.5;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.about-project-show {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-project {
+	width: 20%;
+	height: 350px;
+	position: relative;
+}
+
+.about-project img {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 350px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.yellow-border-project {
+	border-bottom: 10px solid #ffc722;
+}
+
+.blue-border-project {
+	border-bottom: 10px solid #467fd7;
+}
+
+.project-label {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.about-project:hover img {
+	opacity: 0.3;
+}
+
+.about-project:hover .project-label {
+	opacity: 1;
+}
+
+.about-project:hover {
+	margin-top: -15px;
+	transition: .5s ease;
+}
+
+.about-project:hover .text-blue {
+	transform: rotate(-45deg);
+	transition: .5s ease;
+}
+
+.about-project:hover .text-yellow {
+	transform: rotate(-45deg);
+	transition: .5s ease;
+}
+
+.text-yellow {
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+	border: 3px solid #ffc722;
+}
+
+.text-blue {
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+	border: 3px solid #467fd7;
+}
+
+.text-yellow a {
+	color: white;
+	text-decoration: none;
+}
+
+.text-blue a {
+	color: white;
+	text-decoration: none;
 }
 
 .footer {
@@ -151,3 +239,4 @@
 	height: 40px;
 	cursor: pointer;
 }
+

@@ -365,6 +365,16 @@
   font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
 }
 
+.contact-footer-home {
+  width: 200px;
+  height: 31px;
+  position: absolute;
+  bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  left: -415px;
+}
+
 /*rotate diamond shape*/
 .rotate-first {
   transform: rotate(45deg);
@@ -374,5 +384,33 @@
   -o-transform: rotate(45deg);
 }
 
+
+/*page transition*/
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
 
 
