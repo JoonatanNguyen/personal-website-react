@@ -1,0 +1,108 @@
+.contact-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.profile-picture-div {
+	width: 50%;
+	height: 640px;
+}
+
+/*.triangle-down {*/
+	/*margin-left: 15px;*/
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-left: 265px solid transparent;*/
+	/*border-right: 265px solid transparent;*/
+	/*border-top: 290px solid rgba(85, 85, 85, 0.27);*/
+	/*background: url('../Assets/images/Florence.jpg');*/
+	/*background-size: cover;*/
+/*}*/
+
+/*.triangle-down-layer {*/
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-left: 175px solid transparent;*/
+	/*border-right: 175px solid transparent;*/
+	/*border-top: 200px solid rgba(85, 85, 85, 0.27);*/
+/*}*/
+
+/*.triangle-up {*/
+	/*margin-top: 30px;*/
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-left: 265px solid transparent;*/
+	/*border-right: 265px solid transparent;*/
+	/*border-bottom: 290px solid rgba(85, 85, 85, 0.27);*/
+/*}*/
+
+.picture-me {
+	width: 50%;
+	height: 550px;
+	background: url(../Assets/images/Profile_picture.jpg) center center;
+	background-size: cover;
+	transition: 0.9s cubic-bezier(1, 0, 0, 2);
+	clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
+.picture-me:hover {
+	clip-path: polygon(50% 19%, 0 76%, 100% 76%);
+}
+
+.contact-form {
+	width: 36%;
+	margin-top: 50px;
+	height: 550px;
+	background-color: black;
+	position: absolute;
+	left: 726px;
+	z-index: 1;
+}
+
+.contact-form-layer {
+	width: 37%;
+	position: absolute;
+	margin-top: 45px;
+	left: 720px;
+	height: 562px;
+	z-index: 0;
+	transform: skew(2deg, 2deg);
+	background: linear-gradient(#ffc722, #467fd7);
+}
+
+.contact-content {
+	color: white;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.contact-content h1 {
+	width: 190px;
+	color: #ffc722;
+	border-bottom: 2px solid #467fd7;
+	height: 50px;
+}
+
+.contact-text {
+	margin-top: 60px;
+}
+
+.contact-content p {
+	font-size: 20px;
+}
+
+.text-decoration {
+	font-size: 23px;
+	font-style: normal;
+	color: #467fd7;
+}
+
+.contact-content a {
+	color: #ffc722;
+}
+
+.contact-content address {
+	font-size: 20px;
+}
+

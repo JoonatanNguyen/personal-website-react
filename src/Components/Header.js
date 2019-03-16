@@ -12,14 +12,13 @@ class Header extends Component {
 
 		return (
 			<div className='navigation-bar-container'>
-				{!isAtHome && <NavLink exact to='/'>Home</NavLink>}
+				{!isAtHome && <NavLink className='nav-link-home' exact to='/'>Home</NavLink>}
 				<div className={`navigation-bar ${isAtHome ? '' : 'not-home'}`}>
-					{/*<div className='navigation-links'>*/}
 						<NavLink
 							className='navLink'
 							exact
 							to={`/${about}`}
-							activeStyle={{ color: 'blue' }}
+							activeStyle={{ color: '#ffc722' }}
 						>
 							About
 						</NavLink>
@@ -27,7 +26,7 @@ class Header extends Component {
 							className='navLink'
 							exact
 							to={`/${portfolio}`}
-							activeStyle={{ color: 'blue' }}
+							activeStyle={{ color: '#ffc722' }}
 						>
 							Portfolio
 						</NavLink>
@@ -35,7 +34,7 @@ class Header extends Component {
 							className='navLink'
 							exact
 							to={`/${resume}`}
-							activeStyle={{ color: 'blue' }}
+							activeStyle={{ color: '#ffc722' }}
 						>
 							Resume
 						</NavLink>
@@ -43,11 +42,10 @@ class Header extends Component {
 							className='navLink'
 							exact
 							to={`/${contact}`}
-							activeStyle={{ color: 'blue' }}
+							activeStyle={{ color: '#ffc722' }}
 						>
 							Contact
 						</NavLink>
-					{/*</div>*/}
 				</div>
 			</div>
 		);

@@ -10,7 +10,11 @@ const MiddleShape = () => (
 		<div className="line-two"/>
 		<div className="line-three"/>
 		<div className="square-shape"/>
-		<div className="diamond-shape rotate-first"/>
+		<div className="diamond-shape rotate-first">
+			<p className='greeting-text'>Hi, I'm</p>
+			<h2>MINH NGUYEN</h2>
+			<p className='home-description'>Front-end/Software Developer</p>
+		</div>
 	</div>
 );
 

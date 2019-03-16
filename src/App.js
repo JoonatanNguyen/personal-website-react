@@ -6,11 +6,12 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
+import Contact from './Components/Contact';
 import Header from './Components/Header';
 import RoutePathConstants from './Constants/RoutePathConstants';
 import history from './history';
 
-const { home, about, portfolio, resume } = RoutePathConstants;
+const { home, about, portfolio, resume, contact } = RoutePathConstants;
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path={`/${about}`} component={About}/>
             <Route path={`/${portfolio}`} component={Portfolio}/>
             <Route path={`/${resume}`} component={Resume}/>
+            <Route path={`/${contact}`} component={Contact}/>
           </Switch>
         </div>
       </Router>

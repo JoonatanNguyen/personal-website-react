@@ -40,12 +40,22 @@
   color: white;
 }
 
+.navigation-bar a:hover {
+  color: #ffc722;
+  text-decoration: line-through;
+}
+
 .not-home {
   display: flex;
   justify-content: space-between;
   margin: 0 20px 0 10px;
   width: 37%;
   border-bottom: 0 solid black;
+}
+
+.nav-link-home:hover {
+  color: #ffc722;
+  text-decoration: line-through;
 }
 
 .container {
@@ -192,6 +202,7 @@
   border: 5px solid #ffc722;
   left: 50%;
   margin-left: -192px;
+  z-index: 10;
 }
 
 .diamond-shape::after {
@@ -203,7 +214,35 @@
   top: 25px;
   left: 25px;
   border: 3px solid #ffc722;
-  background-image: url("./Assets/images/star_background.gif");
+  z-index: -1;
+}
+
+.greeting-text {
+  color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 95px;
+  left: 72px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.diamond-shape h2 {
+  color: #03a8f0;
+  position: absolute;
+  font-size: 40px;
+  top: 106px;
+  left: 28px;
+  transform: rotate(-45deg);
+}
+
+.home-description {
+  color: white;
+  font-style: italic;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 179px;
+  left: 95px;
 }
 
 .square-shape {
@@ -215,6 +254,7 @@
   border: 5px solid #177DEB;
   left: 50%;
   margin-left: -192px;
+  background-image: url("./Assets/images/star_background.gif");
 }
 
 .left-panel {
@@ -333,26 +373,6 @@
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
 }
-.rotate-second {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-}
-.rotate-third {
-  transform: rotate(225deg);
-  -webkit-transform: rotate(225deg);
-  -moz-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  -o-transform: rotate(225deg);
-}
-.rotate-fourth {
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -moz-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
-}
+
 
 
