@@ -1,0 +1,84 @@
+.insurance-container {
+	width: 100%;
+}
+
+.insurance-project-top-section {
+	width: 100%;
+	position: relative;
+}
+
+.video-bg-insurance {
+	width: 100%;
+	height: 724px;
+}
+
+.introduction-insurance-project {
+	position: absolute;
+	top: 35%;
+	left: 4%;
+	width: 90%;
+	padding: 7px;
+	border: 3px solid #ffc722;
+}
+
+.introduction-insurance-project p {
+	color: #ffc722;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+	margin: 0;
+	letter-spacing: 50px;
+}
+
+.insurance-description {
+	width: 100%;
+	position: relative;
+}
+
+.insurance-description h2 {
+	font-family: serif;
+	margin: 75px auto 0 auto;
+	font-size: 50px;
+	letter-spacing: 20px;
+}
+
+.insurance-description .insurance-divider {
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	margin: 10px auto 0 auto;
+}
+
+.insurance-description p {
+	width: 60%;
+	margin: 20px auto 0 auto;
+	line-height: 30px;
+}
+
+.sub-description-insurance {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto 75px auto;
+}
+
+.sub-description-insurance ul {
+	margin-top: 100px;
+	width: 50%;
+}
+
+.sub-description-insurance ul span {
+	color: #ffc722;
+	border-bottom: 1px solid #ffc722;
+}
+
+.sub-description-insurance li {
+	list-style: none;
+	margin-top: 20px;
+	width: 60%;
+	margin-left: 30px;
+	padding-left: 30px;
+	font-weight: bold;
+}

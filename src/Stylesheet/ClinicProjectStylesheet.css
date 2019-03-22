@@ -1,0 +1,112 @@
+.clinic-project-container {
+	width: 100%;
+}
+
+.clinic-project-top-section {
+	width: 100%;
+	position: relative;
+}
+
+.video-bg-clinic {
+	width: 100%;
+	height: 724px;
+}
+
+.introduction-clinic-project {
+	position: absolute;
+	top: 35%;
+	left: 4%;
+	width: 90%;
+	padding: 7px;
+	border: 3px solid #ffc722;
+}
+
+.introduction-clinic-project p {
+	color: #ffc722;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+	margin: 0;
+	letter-spacing: 50px;
+}
+
+.description h2 {
+	font-family: serif;
+	margin: 75px auto 0 auto;
+	font-size: 50px;
+	letter-spacing: 20px;
+}
+
+.description .divider {
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	margin: 10px auto 0 auto;
+}
+
+.description p {
+	width: 60%;
+	margin: 20px auto 0 auto;
+	line-height: 30px;
+}
+
+.sub-description {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	width: 35%;
+	margin: 0 auto 75px auto;
+}
+
+.sub-description ul {
+	margin-top: 100px;
+
+}
+
+ul span {
+	color: #ffc722;
+	border-bottom: 1px solid #ffc722;
+}
+
+.sub-description li {
+	list-style: none;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.project-detail {
+	width: 100%;
+	height: 650px;
+	background-color: grey;
+}
+
+.project-detail img {
+	margin-top: 80px;
+	width: 50%;
+	overflow: hidden;
+}
+
+.project-detail img:hover {
+	transform: scale(1.1);
+	transition: .5s ease;
+}
+
+.other-projects {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.the-end-div {
+	width: 100%;
+	height: 300px;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
+
+.the-end-div span {
+	font-size: 80px;
+	letter-spacing: 60px;
+	margin: 100px 0 0 63px;
+}

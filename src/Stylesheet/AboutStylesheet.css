@@ -38,7 +38,7 @@
 	position: absolute;
 	color: white;
 	top: 380px;
-	left: 31%;
+	left: 30%;
 	font-size: 20px;
 }
 
@@ -57,6 +57,7 @@
 	color: white;
 	font-size: 20px;
 	line-height: 25px;
+	font-family: "UniversLTStd",sans-serif;
 }
 
 .profile-picture {

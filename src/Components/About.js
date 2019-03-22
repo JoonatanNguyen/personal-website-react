@@ -1,6 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 import '../Stylesheet/AboutStylesheet.css';
 import BackgroundImage from '../Assets/images/black-polygonal-background.jpg';
@@ -12,6 +13,10 @@ import TrainInfoPic from '../Assets/images/train-project-picture-one.jpg';
 import ClinicProjectPic from '../Assets/images/clinic-project-picture.jpeg';
 import UPayProjectPic from '../Assets/images/online-payment-project-picture.jpg';
 import InsuranceClaimPic from '../Assets/images/insurance-claim-project-picture.jpg';
+
+import RoutePathConstants from '../Constants/RoutePathConstants';
+
+const { clinicProject, recipeSearch, trainWebApp, upay, insuranceClaim } = RoutePathConstants;
 
 class About extends React.Component {
 	constructor(props) {
@@ -72,7 +77,7 @@ class About extends React.Component {
 							<img src={ClinicProjectPic} alt='clinic'/>
 							<div className='project-label'>
 								<div className='text-yellow'>
-									<a href='#'>Clinic Screen</a>
+									<Link to={`/${clinicProject}`}>Clinic Screen</Link>
 								</div>
 							</div>
 						</div>
@@ -80,7 +85,7 @@ class About extends React.Component {
 							<img src={RecipeSearchPic} alt='food'/>
 							<div className='project-label'>
 								<div className='text-blue'>
-									<a href='#'>Recipe Search</a>
+									<Link to={`/${recipeSearch}`}>Recipe Search</Link>
 								</div>
 							</div>
 						</div>
@@ -88,7 +93,7 @@ class About extends React.Component {
 							<img src={TrainInfoPic} alt='train'/>
 							<div className='project-label'>
 								<div className='text-yellow'>
-									<a href='#'>Train Web App</a>
+									<Link to={`/${trainWebApp}`}>Train Web App</Link>
 								</div>
 							</div>
 						</div>
@@ -96,7 +101,7 @@ class About extends React.Component {
 							<img src={UPayProjectPic} alt='payment methods'/>
 							<div className='project-label'>
 								<div className='text-blue'>
-									<a href='#'>UPay</a>
+									<Link to={`/${upay}`}>UPay</Link>
 								</div>
 							</div>
 						</div>
@@ -104,7 +109,7 @@ class About extends React.Component {
 							<img src={InsuranceClaimPic} alt='claim form'/>
 							<div className='project-label'>
 								<div className='text-yellow'>
-									<a href='#'>Insurance Claim</a>
+									<Link to={`/${insuranceClaim}`}>Insurance Claim </Link>
 								</div>
 							</div>
 						</div>

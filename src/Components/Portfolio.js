@@ -1,13 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../Stylesheet/PortfolioStylesheet.css';
+
 import RecipeSearchPic from '../Assets/images/recipe-project-picture.jpeg';
 import TrainInfoPic from '../Assets/images/train-project-picture-one.jpg';
 import ClinicProjectPic from '../Assets/images/clinic-project-picture.jpeg';
 import UPayProjectPic from '../Assets/images/online-payment-project-picture.jpg';
 import InsuranceClaimPic from '../Assets/images/insurance-claim-project-picture.jpg';
+
 import ContactLinkedInLogo from '../Assets/images/linkedin-logo-white.svg';
 import ContactEmailLogo from '../Assets/images/email-logo-transparent.png';
+
+import RoutePathConstants from '../Constants/RoutePathConstants';
+
+const { clinicProject, recipeSearch, trainWebApp, upay, insuranceClaim } = RoutePathConstants;
 
 const Portfolio = () => (
 	<div className='portfolio-container'>
@@ -17,7 +24,7 @@ const Portfolio = () => (
 					<div className='project-number-top'>01</div>
 					<div className='project-name-top'>Clinic Screen</div>
 					<div className='see-more-top'>
-						<a href='#'>See More</a>
+						<Link to={`/${clinicProject}`}>See More</Link>
 					</div>
 				</div>
 				<div className='overlay-bottom'>
@@ -43,7 +50,7 @@ const Portfolio = () => (
 					<div className='project-number-blue'>02</div>
 					<div className='project-name'>Recipe Search</div>
 					<div className='see-more'>
-						<a href='#'>See More</a>
+						<Link to={`/${recipeSearch}`}>See More</Link>
 					</div>
 				</div>
 				<div className='overlay-top'>
@@ -57,7 +64,7 @@ const Portfolio = () => (
 					<div className='project-number-top'>03</div>
 					<div className='project-name-top'>Train Web App</div>
 					<div className='see-more-top'>
-						<a href='#'>See More</a>
+						<Link to={`/${trainWebApp}`}>See More</Link>
 					</div>
 				</div>
 				<div className='overlay-bottom'>
@@ -83,7 +90,7 @@ const Portfolio = () => (
 					<div className='project-number-blue'>04</div>
 					<div className='project-name'>UPay</div>
 					<div className='see-more'>
-						<a href='#'>See More</a>
+						<Link to={`/${upay}`}>See More</Link>
 					</div>
 				</div>
 				<div className='overlay-top'>
@@ -97,7 +104,7 @@ const Portfolio = () => (
 					<div className='project-number-top'>05</div>
 					<div className='project-name-top'>Insurance Claim</div>
 					<div className='see-more-top'>
-						<a href='#'>See More</a>
+						<Link to={`/${insuranceClaim}`}>See More</Link>
 					</div>
 				</div>
 				<div className='overlay-bottom'>
