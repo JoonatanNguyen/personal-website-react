@@ -51,15 +51,15 @@ const RecipeSearchProject = () => (
 			</div>
 		</div>
 		<div className='recipe-project-detail'>
-			<div className='recipe-demo-homepage'>
+			<div className='recipe-demo'>
 				<img src={RecipeDemoPicture} alt='recipe project demo'/>
 				<span className='page-label-description'>Home page</span>
 			</div>
-			<div className='recipe-demo-homepage'>
+			<div className='recipe-demo'>
 				<img src={RecipeDemoSelectedFood} alt='choose specific dish demo'/>
 				<span className='page-label-one-description'>Chosen Food Page</span>
 			</div>
-			<div className='recipe-demo-two-homepage'>
+			<div className='recipe-demo-two'>
 				<img src={RecipeDemoChosenRecipe} alt='show chosen recipe demo'/>
 				<span className='page-label-two-description'>Chosen Recipe Page</span>
 			</div>

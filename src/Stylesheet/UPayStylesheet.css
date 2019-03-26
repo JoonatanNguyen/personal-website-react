@@ -82,3 +82,69 @@
 	padding-left: 30px;
 	font-weight: bold;
 }
+
+.upay-project-detail {
+	width: 100%;
+}
+
+.upay-project-demo {
+	width: 100%;
+	height: auto;
+	background-color: sandybrown;
+}
+
+.video-demo-upay {
+	width: 70%;
+	height: 500px;
+	margin-top: 110px;
+	box-shadow: 3px 7px 18px #88888894;
+}
+
+.upay-project-demo img {
+	width: 70%;
+	height: 500px;
+	margin-top: 110px;
+	box-shadow: 3px 7px 18px #88888894;;
+}
+
+.demo-personal-info {
+	margin-bottom: 110px;
+}
+
+.upay-label-description {
+	transform: rotate(90deg);
+	color: white;
+	position: absolute;
+	margin-top: 40%;
+	margin-left: -10px;
+}
+
+.label-description-subscription {
+	transform: rotate(90deg);
+	color: white;
+	position: absolute;
+	margin-top: 37%;
+	margin-left: -28px;
+}
+
+.label-description-personal-info {
+	transform: rotate(90deg);
+	color: white;
+	position: absolute;
+	margin-top: 35%;
+	margin-left: -59px;
+}
+
+.the-end-div {
+	width: 100%;
+	height: 300px;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
+
+.the-end-div span {
+	font-size: 80px;
+	letter-spacing: 60px;
+	margin: 100px 0 0 63px;
+}
