@@ -8,7 +8,10 @@
       <change afterPath="$PROJECT_DIR$/src/Stylesheet/TrainProjectStylesheet.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Stylesheet/UPayStylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ClinicProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ClinicProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InsuranceClaimProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InsuranceClaimProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/RecipeSearchProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RecipeSearchProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TrainProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TrainProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/UPayProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UPayProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stylesheet/AboutStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheet/AboutStylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stylesheet/PortfolioStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheet/PortfolioStylesheet.css" afterDir="false" />
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ClinicProject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="69" />
+            <state relative-caret-position="282">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -50,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/RecipeSearchProject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+            <state relative-caret-position="-344">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -62,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stylesheet/RecipeProjectStyleSheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            <state relative-caret-position="326">
+              <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -71,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/UPayProject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="68" column="56" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="56" />
+            <state relative-caret-position="220">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stylesheet/UPayStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="608">
               <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Portfolio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1540">
+              <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +124,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/Stylesheet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -137,17 +152,17 @@
         <option value="$PROJECT_DIR$/src/Components/TrainWebAppProject.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Portfolio.js" />
-        <option value="$PROJECT_DIR$/src/Components/TrainProject.js" />
-        <option value="$PROJECT_DIR$/src/Components/InsuranceClaimProject.js" />
         <option value="$PROJECT_DIR$/src/Stylesheet/InsuranceProjectStylesheet.css" />
         <option value="$PROJECT_DIR$/src/Stylesheet/TrainProjectStylesheet.css" />
         <option value="$PROJECT_DIR$/src/Stylesheet/ClinicProjectStylesheet.css" />
         <option value="$PROJECT_DIR$/src/Components/About.js" />
-        <option value="$PROJECT_DIR$/src/Components/ClinicProject.js" />
-        <option value="$PROJECT_DIR$/src/Components/RecipeSearchProject.js" />
-        <option value="$PROJECT_DIR$/src/Stylesheet/RecipeProjectStyleSheet.css" />
-        <option value="$PROJECT_DIR$/src/Components/UPayProject.js" />
         <option value="$PROJECT_DIR$/src/Stylesheet/UPayStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/Components/RecipeSearchProject.js" />
+        <option value="$PROJECT_DIR$/src/Components/ClinicProject.js" />
+        <option value="$PROJECT_DIR$/src/Components/UPayProject.js" />
+        <option value="$PROJECT_DIR$/src/Components/InsuranceClaimProject.js" />
+        <option value="$PROJECT_DIR$/src/Components/TrainProject.js" />
+        <option value="$PROJECT_DIR$/src/Stylesheet/RecipeProjectStyleSheet.css" />
       </list>
     </option>
   </component>
@@ -167,8 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,18 +317,20 @@
       <workItem from="1553093278472" duration="16165000" />
       <workItem from="1553511659417" duration="288000" />
       <workItem from="1553607984482" duration="252000" />
-      <workItem from="1553610198805" duration="4632000" />
+      <workItem from="1553610198805" duration="4970000" />
+      <workItem from="1553667916371" duration="413000" />
+      <workItem from="1553670168684" duration="2674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156932000" />
+    <option name="totallyTimeSpent" value="160357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,16 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -508,19 +515,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TrainProject.js">
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/AboutStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="321">
+          <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/About.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="1665">
           <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="73" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -530,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ClinicProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="69" />
+        <state relative-caret-position="282">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -540,25 +544,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/InsuranceClaimProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stylesheet/AboutStylesheet.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/TrainProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+        <state relative-caret-position="83">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/RecipeSearchProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="-344">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -567,15 +574,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheet/RecipeProjectStyleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state relative-caret-position="326">
+          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/UPayProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="56" />
+        <state relative-caret-position="220">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -584,8 +591,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheet/UPayStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="608">
           <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
