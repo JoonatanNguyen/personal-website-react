@@ -9,7 +9,6 @@
 
 .video-bg-upay {
 	width: 100%;
-	height: 724px;
 }
 
 .introduction-upay-project {
@@ -91,11 +90,11 @@
 	width: 100%;
 	height: auto;
 	background-color: sandybrown;
+	position: relative;
 }
 
 .video-demo-upay {
 	width: 70%;
-	height: 500px;
 	margin-top: 110px;
 	box-shadow: 3px 7px 18px #88888894;
 }
@@ -111,40 +110,27 @@
 	margin-bottom: 110px;
 }
 
-.upay-label-description {
+.upay-label {
 	transform: rotate(90deg);
 	color: white;
 	position: absolute;
-	margin-top: 40%;
-	margin-left: -10px;
 }
 
-.label-description-subscription {
-	transform: rotate(90deg);
-	color: white;
+.upay-label.description {
 	position: absolute;
-	margin-top: 37%;
-	margin-left: -28px;
+	bottom: 72px;
+	right: 120px;
 }
 
-.label-description-personal-info {
-	transform: rotate(90deg);
-	color: white;
+.upay-label.subscription {
 	position: absolute;
-	margin-top: 35%;
-	margin-left: -59px;
+	bottom: 100px;
+	right: 90px;
 }
 
-.the-end-div {
-	width: 100%;
-	height: 300px;
-	background: white;
-	display: flex;
-	justify-content: center;
-}
-
-.the-end-div span {
-	font-size: 80px;
-	letter-spacing: 60px;
-	margin: 100px 0 0 63px;
+.upay-label.personal-info {
+	position: absolute;
+	width: 200px;
+	bottom: 233px;
+	right: 55px;
 }

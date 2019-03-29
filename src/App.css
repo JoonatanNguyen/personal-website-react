@@ -365,15 +365,6 @@
   font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
 }
 
-.contact-footer-home {
-  width: 200px;
-  height: 31px;
-  position: absolute;
-  bottom: 12px;
-  display: flex;
-  flex-direction: row;
-  left: -415px;
-}
 
 /*rotate diamond shape*/
 .rotate-first {

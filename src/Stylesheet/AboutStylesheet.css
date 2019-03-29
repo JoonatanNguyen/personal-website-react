@@ -1,9 +1,21 @@
-.about-background-image{
+.about-introduction-section{
 	width: 100%;
 	height: 640px;
+	background-image: url("../Assets/images/black-polygonal-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.line-decoration-one {
+.introduction-div {
+	margin: auto;
+	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 800px;
+}
+
+.line-decoration {
 	display: block;
 	height: 1px;
 	border-bottom: 1px solid #ffffff;
@@ -14,20 +26,19 @@
 	margin-bottom: 10px;
 }
 
-.introduction-div {
-	position: absolute;
+.greeting-label {
 	width: 370px;
 	top: 250px;
 	left: 36%;
 	color: white;
 	font-size: 20px;
+	font-style: italic;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
 .my-name {
-	position: absolute;
 	color: #ffc722;
 	top: 260px;
 	left: 40%;
@@ -35,7 +46,6 @@
 }
 
 .my-slogan {
-	position: absolute;
 	color: white;
 	top: 380px;
 	left: 30%;
@@ -63,10 +73,12 @@
 .profile-picture {
 	width: 30%;
 	height: auto;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .profile-picture img {
-	width: 100%;
+	width: auto;
 	height: 360px;
 }
 
@@ -99,145 +111,4 @@
 	margin-bottom: 10px;
 }
 
-.about-project-show {
-	display: flex;
-	flex-direction: row;
-}
-
-.about-project {
-	width: 20%;
-	height: 350px;
-	position: relative;
-}
-
-.about-project img {
-	opacity: 1;
-	display: block;
-	width: 100%;
-	height: 350px;
-	transition: .5s ease;
-	backface-visibility: hidden;
-}
-
-.yellow-border-project {
-	border-bottom: 10px solid #ffc722;
-}
-
-.blue-border-project {
-	border-bottom: 10px solid #467fd7;
-}
-
-.project-label {
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.about-project:hover img {
-	opacity: 0.3;
-}
-
-.about-project:hover .project-label {
-	opacity: 1;
-}
-
-.about-project:hover {
-	margin-top: -15px;
-	transition: .5s ease;
-}
-
-.about-project:hover .text-blue {
-	transform: rotate(-45deg);
-	transition: .5s ease;
-}
-
-.about-project:hover .text-yellow {
-	transform: rotate(-45deg);
-	transition: .5s ease;
-}
-
-.text-yellow {
-	background-color: black;
-	color: white;
-	font-size: 16px;
-	padding: 16px 32px;
-	border: 3px solid #ffc722;
-}
-
-.text-blue {
-	background-color: black;
-	color: white;
-	font-size: 16px;
-	padding: 16px 32px;
-	border: 3px solid #467fd7;
-}
-
-.text-yellow a {
-	color: white;
-	text-decoration: none;
-}
-
-.text-blue a {
-	color: white;
-	text-decoration: none;
-}
-
-.footer {
-	width: 100%;
-	height: 360px;
-	background-color: black;
-	color: white;
-	font-size: 20px;
-	margin-top: 2px;
-}
-
-.footer-text {
-	width: 600px;
-	margin: auto;
-	padding-top: 70px;
-	color: white;
-	font-size: 22px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.line-decoration-footer {
-	display: block;
-	height: 1px;
-	border-bottom: 1px solid #ffffff;
-	width: 18%;
-	margin: 0 auto;
-	opacity: 0.5;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.logo-connect {
-	width: 90px;
-	height: 50px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-left: 45%;
-	margin-top: 40px;
-}
-
-.LinkedInLogo {
-	width: 50%;
-	height: 40px;
-	margin-right: 30px;
-	cursor: pointer;
-}
-
-.EmailLogo {
-	width: 50%;
-	height: 40px;
-	cursor: pointer;
-}
 

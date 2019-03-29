@@ -4,32 +4,34 @@
 
 .resume-top-section {
 	width: 100%;
-	height: auto;
+	height: 645px;
+	background-image: url("../Assets/images/Resume-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.resume-top-section img {
-	width: 100%;
-	height: 640px;
+.resume-introduction-div {
+	margin: auto;
+	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 800px;
 }
 
 .resume-top-section h1 {
 	color: white;
-	position: absolute;
-	top: 250px;
-	left: 34%;
 	font-size: 40px;
 	margin: 0;
 }
 
 .resume-div-smallText {
 	width: 600px;
-	position: absolute;
-	top: 330px;
-	left: 28%;
 	color: white;
 	font-style: italic;
 	display: flex;
 	flex-direction: row;
+	margin-top: 40px;
 }
 
 .line-decoration-resume {
@@ -47,10 +49,11 @@
 	width: 150px;
 	height: 50px;
 	border: 3px solid #ffc722;
-	position: absolute;
-	top: 380px;
-	left: 44%;
 	display: flex;
+	margin-top: 40px;
+	color: #467fd7;
+	font-size: 17px;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -58,15 +61,12 @@
 	background-color: #178dd7;
 }
 
-.button-download-CV span:hover {
-	color: black;
+.button-download-CV span {
+	margin: 16px auto 0 auto;
 }
 
-.button-download-CV span {
-	color: #467fd7;
-	font-size: 17px;
-	margin: 16px auto 0 auto;
-	font-weight: bold;
+.button-download-CV span:hover {
+	color: black;
 }
 
 .skill-education-section {
@@ -74,50 +74,42 @@
 	height: auto;
 }
 
-.skill {
-	width: 100%;
-	height: 450px;
-	background-color: #F5F5F5;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-top: 50px;
-}
-
-.skill h2 {
+.skill-education-section h2 {
 	margin: 0;
 	height: 34px;
 	border-bottom: 3px solid #ffc722;
 }
 
-.sub-div {
-	width: 21%;
-	height: 450px;
-}
-
-.sub-div p {
+.skill-education-section p {
 	text-align: left;
 	font-weight: bold;
 }
 
-.sub-div ul {
-	text-align: left;
+.resume-detail {
+	width: 100%;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.skill {
+	height: 450px;
+	padding-top: 50px;
 }
 
 .education {
-	width: 100%;
 	height: 280px;
-	background-color: #F5F5F5;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
 	padding-top: 70px;
 }
 
-.education h2 {
-	margin: 0;
-	height: 34px;
-	border-bottom: 3px solid #ffc722;
+.sub-skill-div {
+	width: 21%;
+	height: 450px;
+}
+
+.sub-skill-div ul {
+	text-align: left;
 }
 
 .sub-education-div {
@@ -125,10 +117,6 @@
 	height: 280px;
 	text-align: left;
 	padding-left: 63px;
-}
-
-.sub-education-div p {
-	font-weight: bold;
 }
 
 .specific-info {
