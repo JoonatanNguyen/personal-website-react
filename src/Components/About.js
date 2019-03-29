@@ -27,7 +27,7 @@ class About extends React.Component {
 					<div className="introduction-div">
 						<div className="greeting-label">
 							<span className = "line-decoration"/>
-							<span>Hey, I"m</span>
+							<span>Hey, I'm</span>
 							<span className = "line-decoration"/>
 						</div>
 						<p className="my-name">Minh Nguyen</p>

@@ -9,36 +9,8 @@
 	height: 640px;
 }
 
-/*.triangle-down {*/
-	/*margin-left: 15px;*/
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-left: 265px solid transparent;*/
-	/*border-right: 265px solid transparent;*/
-	/*border-top: 290px solid rgba(85, 85, 85, 0.27);*/
-	/*background: url('../Assets/images/Florence.jpg');*/
-	/*background-size: cover;*/
-/*}*/
-
-/*.triangle-down-layer {*/
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-left: 175px solid transparent;*/
-	/*border-right: 175px solid transparent;*/
-	/*border-top: 200px solid rgba(85, 85, 85, 0.27);*/
-/*}*/
-
-/*.triangle-up {*/
-	/*margin-top: 30px;*/
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-left: 265px solid transparent;*/
-	/*border-right: 265px solid transparent;*/
-	/*border-bottom: 290px solid rgba(85, 85, 85, 0.27);*/
-/*}*/
-
 .picture-me {
-	width: 50%;
+	width: 600px;
 	height: 550px;
 	background: url(../Assets/images/Profile_picture.jpg) center center;
 	background-size: cover;
@@ -50,7 +22,7 @@
 }
 
 .contact-form {
-	width: 36%;
+	width: 460px;
 	margin-top: 50px;
 	height: 550px;
 	background-color: black;
@@ -60,7 +32,7 @@
 }
 
 .contact-form-layer {
-	width: 37%;
+	width: 470px;
 	position: absolute;
 	margin-top: 45px;
 	left: 720px;
