@@ -18,6 +18,7 @@
 	width: 90%;
 	padding: 7px;
 	border: 3px solid #ffc722;
+	text-align: center;
 }
 
 .introduction-clinic-project p {
@@ -29,59 +30,16 @@
 	letter-spacing: 50px;
 }
 
-.description h2 {
-	font-family: serif;
-	margin: 75px auto 0 auto;
-	font-size: 50px;
-	letter-spacing: 20px;
-}
-
-.description .divider {
-	width: 100px;
-	height: 2px;
-	background-color: black;
-	margin: 10px auto 0 auto;
-}
-
 .description p {
 	width: 60%;
 	margin: 20px auto 0 auto;
 	line-height: 30px;
 }
 
-.sub-description {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-	justify-content: space-between;
-	width: 35%;
-	margin: 0 auto 75px auto;
-}
-
-.sub-description ul {
-	margin-top: 100px;
-
-}
-
-ul span {
-	color: #ffc722;
-	border-bottom: 1px solid #ffc722;
-}
-
-.sub-description li {
-	list-style: none;
-	margin-top: 20px;
-	font-weight: bold;
-}
 
 .project-detail {
 	width: 100%;
-	height: 650px;
 	background-color: grey;
+	padding-bottom: 110px;
 }
 
-.project-detail img {
-	margin-top: 80px;
-	width: 50%;
-	overflow: hidden;
-}

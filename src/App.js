@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
 
 import Home from './Components/Home';
@@ -17,24 +17,24 @@ import InsuranceClaimProject from './Components/InsuranceClaimProject';
 import RoutePathConstants from './Constants/RoutePathConstants';
 import history from './history';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import ContactLinkSection from './Components/ContactLinkSection';
 
 const { home, about, portfolio, resume, contact, clinicProject, recipeSearch, trainWebApp, upay, insuranceClaim } = RoutePathConstants;
 
 class App extends Component {
   render() {
-    console.log(history);
     return (
       <Router history={history}>
         <div className="App wrapper">
-          <Header/>
+          <Header />
           <Route render={({location})=> (
-            <TransitionGroup>
+            <TransitionGroup className="transition-group">
               <CSSTransition
                 key={location.key}
                 timeout={450}
                 classNames="fade"
               >
-                <Switch location={location}>
+                <Switch>
                   <Route path={`/${home}`} component={Home} exact/>
                   <Route path={`/${about}`} component={About} exact/>
                   <Route path={`/${portfolio}`} component={Portfolio} exact/>
@@ -49,10 +49,11 @@ class App extends Component {
               </CSSTransition>
             </TransitionGroup>
           )}/>
+          <ContactLinkSection />
         </div>
       </Router>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

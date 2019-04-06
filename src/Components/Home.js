@@ -1,10 +1,11 @@
 import React from 'react';
 
 import MiddleShape from './MiddleShape';
+import '../Stylesheet/HomeStylesheet.css';
 
 const Home = () => (
-	<div>
-		<MiddleShape/>
+	<div className="home-container">
+		<MiddleShape />
 	</div>
 );
 

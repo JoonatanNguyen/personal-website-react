@@ -4,13 +4,11 @@
 
 .recipe-project-top-section {
 	width: 100%;
-	height: auto;
 	position: relative;
 }
 
 .video-bg-recipe {
 	width: 100%;
-	height: 724px;
 }
 
 .introduction-recipe-project {
@@ -29,16 +27,20 @@
 	font-family: "Gill Sans", sans-serif;
 	margin: 0;
 	letter-spacing: 50px;
+	text-align: center;
 }
 
 .recipe-description {
 	width: 100%;
 	position: relative;
+	background-color: white;
+	text-align: center;
 }
 
 .recipe-description h2 {
 	font-family: serif;
-	margin: 75px auto 0 auto;
+	margin: 0 auto 0 auto;
+	padding-top: 75px;
 	font-size: 50px;
 	letter-spacing: 20px;
 }
@@ -62,7 +64,8 @@
 	text-align: center;
 	justify-content: space-between;
 	width: 35%;
-	margin: 0 auto 75px auto;
+	margin: 0 auto 0 auto;
+	padding-bottom: 75px;
 }
 
 .sub-description-recipe ul {
@@ -83,76 +86,9 @@
 
 .recipe-project-detail {
 	width: 100%;
-	height: auto;
+	padding-bottom: 110px;
 	background-color: #47b1e6;
 }
 
-.recipe-demo {
-	height: auto;
-	width: 100%;
-	position: relative;
-}
 
-.recipe-demo img {
-	height: 100%;
-	width: 70%;
-	margin-top: 110px;
-	box-shadow: 5px 10px 18px #888888;
-}
-
-.page-label-description {
-	transform: rotate(90deg);
-	color: white;
-	position: absolute;
-	bottom: 80px;
-	right: 110px;
-}
-
-.page-label-one-description {
-	transform: rotate(90deg);
-	color: white;
-	position: absolute;
-	bottom: 116px;
-	right: 85px;
-}
-
-.recipe-demo-two {
-	width: 100%;
-	height: 700px;
-	position: relative;
-}
-
-.recipe-demo-two img {
-	width: 70%;
-	height: 480px;
-	margin-top: 110px;
-	box-shadow: 5px 10px 18px #888888;
-}
-
-.page-label-two-description {
-	transform: rotate(90deg);
-	color: white;
-	position: absolute;
-	bottom: 215px;
-	right: 78px;
-}
-
-.the-end-div {
-	width: 100%;
-	height: 300px;
-	background: white;
-	display: flex;
-	justify-content: center;
-}
-
-.the-end-div span {
-	font-size: 80px;
-	letter-spacing: 60px;
-	margin: 100px 0 0 63px;
-}
-
-.other-projects {
-	margin-top: 20px;
-	width: 100%;
-}
 

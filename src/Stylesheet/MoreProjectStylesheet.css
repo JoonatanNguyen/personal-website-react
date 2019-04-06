@@ -1,8 +1,3 @@
-.project-show-container {
-	display: flex;
-	flex-direction: row;
-}
-
 .about-project {
 	width: 20%;
 	height: 350px;
@@ -18,11 +13,11 @@
 	backface-visibility: hidden;
 }
 
-.yellow-border-project {
+.yellow-border-bottom {
 	border-bottom: 10px solid #ffc722;
 }
 
-.blue-border-project {
+.blue-border-bottom {
 	border-bottom: 10px solid #467fd7;
 }
 

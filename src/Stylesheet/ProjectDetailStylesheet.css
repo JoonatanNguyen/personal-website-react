@@ -1,0 +1,10 @@
+.project-demo {
+	width: 70%;
+	margin: auto;
+}
+
+.project-demo img {
+	width: 100%;
+	margin-top: 110px;
+	box-shadow: 3px 7px 18px #88888894;
+}

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import ContactLinkSection from './ContactLinkSection';
-
 const MiddleShape = () => (
 	<div className="middle-shape">
 		<div className="triangle-one" />
@@ -17,7 +15,6 @@ const MiddleShape = () => (
 			<h2>MINH NGUYEN</h2>
 			<p className="home-description">Front-end/Software Developer</p>
 		</div>
-		<ContactLinkSection/>
 	</div>
 );
 

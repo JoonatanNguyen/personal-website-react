@@ -1,7 +1,9 @@
 .portfolio-container {
 	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
+	background-color: black;
 }
 
 .yellow-border {
@@ -14,10 +16,12 @@
 
 .project-panel {
 	width: 17%;
-	height: 565px;
+	height: 80%;
 	margin-top: 2%;
 	margin-left: 2%;
 	position: relative;
+	text-align: center;
+
 }
 
 .project-info-section {
@@ -116,11 +120,13 @@
 
 .project-number.yellow {
 	color: #ffc722;
+	border-top: 3px solid #ffc722;
 	border-bottom: 3px solid #ffc722;
 }
 
 .project-number.blue {
 	color: #467fd7;
+	border-top: 3px solid #467fd7;
 	border-bottom: 3px solid #467fd7;
 }
 
@@ -159,4 +165,12 @@
 .see-more:hover {
 	transform: scale(1.1);
 	cursor: pointer;
+}
+
+.technology-used-label {
+	margin: 40px auto 0 auto;
+	color: white;
+	width: 130px;
+	font-size: 15px;
+	font-style: italic;
 }

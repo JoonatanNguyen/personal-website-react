@@ -4,12 +4,27 @@ import '../Stylesheet/ClinicProjectStylesheet.css';
 
 import ClinicVideoBackground from '../Assets/videos/Clinic-project-bg-video.mp4';
 import ClinicScreenMonitor from '../Assets/images/monitor-frame.png';
+
+import ProjectDescription from './ProjectDescription';
+import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from './MoreProjectSection';
 import TheEndSection from './ProjectEndGreetings';
 
 class ClinicScreen extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = { moreProjects: [] }
+	}
+
 	componentDidMount() {
 		window.scrollTo(0,0);
+	}
+
+	componentWillMount() {
+		fetch('/moreProjects.json')
+			.then(response => response.json())
+			.then(data => this.setState({ moreProjects: data.data }));
 	}
 
 	render() {
@@ -24,33 +39,43 @@ class ClinicScreen extends React.Component {
 					</div>
 				</div>
 				<div className="description">
-					<h2>About the project</h2>
-					<div className="divider"/>
-					<p>Nancy clinic is a clinic for children. It is located in Hochiminhcity, Vietnam. </p>
-					<p>
-						This project is aimed to create a patients waiting screen, which shows whose name is going to be called next
-						and which room they should go to see a doctor.
-					</p>
-					<p>
-						This project is created by using React.js and working with real API calls. I have contributed with my brother in this
-						project as to improve my knowledge about React.js and React redux.
-					</p>
-					<div className="sub-description">
-						<ul>
-							<span>CLIENT</span>
-							<li>Nancy Clinic</li>
-						</ul>
-						<ul>
-							<span>MY ROLE</span>
-							<li>Front-end developer</li>
-						</ul>
-					</div>
+					<ProjectDescription
+						descriptionContent={
+							<div>
+								<p>
+									This project is aimed to create a patients waiting screen, which shows whose name is going to be called next
+									and which room they should go to see a doctor.
+								</p>
+								<p>
+									This project is created by using React.js and working with real API calls. I have contributed with my brother in this
+									project as to improve my knowledge about React.js and React redux.
+								</p>
+							</div>
+						}
+						labelColor="yellow"
+						underlineColor="yellow"
+						projectClient="Nancy Clinic"
+						myRoleInProject="Front-end developer"
+					/>
 				</div>
 				<div className="project-detail">
-					<img src={ClinicScreenMonitor} alt="monitor"/>
+					<ProjectDetail
+						projectDemoImage={ClinicScreenMonitor}
+					/>
 				</div>
 				<TheEndSection/>
-				<MoreProjectShow/>
+				<div className="project-show-container">
+					{this.state.moreProjects.map((moreProjects, id) => (
+						<MoreProjectShow
+							key={id}
+							borderTemplateClassName={moreProjects.borderTemplateClassName}
+							buttonBorderClassName={moreProjects.buttonBorderClassName}
+							projectImageSrc={moreProjects.projectImageSrc}
+							projectName={moreProjects.projectName}
+							projectLink={moreProjects.projectLink}
+						/>
+					))}
+				</div>
 		</div>
 		)
 	}

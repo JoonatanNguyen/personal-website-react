@@ -10,6 +10,7 @@ const ProjectItemPanel = ({
   projectNumber,
   projectName,
   projectImageSrc,
+	projectTechnologyUsedLabel,
   overlayPosition,
   projectLink,
   projectLinkSectionPosition,
@@ -32,6 +33,7 @@ const ProjectItemPanel = ({
 			<div className="project-content">
 				<div className={`project-number ${projectNumberColor}`}>{projectNumber}</div>
 				<div className="project-name">{projectName}</div>
+				<div className="technology-used-label">{projectTechnologyUsedLabel}</div>
 			</div>
 		</div>
 	</div>
