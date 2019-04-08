@@ -34,8 +34,8 @@ class Resume extends React.Component {
 				</div>
 				<div className="skill-education-section">
 					<div className="resume-detail skill">
-						<h2 data-aos="fade-right">Skills & Expertise</h2>
-						<div className="sub-skill-div" data-aos="fade-down">
+						<h2>Skills & Expertise</h2>
+						<div className="sub-skill-div">
 							<p>TECHNOLOGIES:</p>
 							<ul>
 								<li>HTML5/CSS3</li>
@@ -58,7 +58,7 @@ class Resume extends React.Component {
 								<li>Fundamental Economics</li>
 							</ul>
 						</div>
-						<div className="sub-skill-div" data-aos="fade-down">
+						<div className="sub-skill-div">
 							<p>EXPERIENCE WITH:</p>
 							<ul>
 								<li>Web development</li>
@@ -75,8 +75,8 @@ class Resume extends React.Component {
 					</div>
 					<span className="line-separate"/>
 					<div className="resume-detail education">
-						<h2 data-aos="fade-right">Education</h2>
-						<div className="sub-education-div" data-aos="fade-left">
+						<h2>Education</h2>
+						<div className="sub-education-div">
 							<p>Lahti University of Applied Sciences(Finland) - Bachelor's degree</p>
 							<span className="specific-info">Business Information Technology | 2017- PRESENT</span>
 							<br/>

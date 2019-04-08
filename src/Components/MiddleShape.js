@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../Stylesheet/MiddleShapeStylesheet.css';
+
 const MiddleShape = () => (
 	<div className="middle-shape">
 		<div className="triangle-one" />

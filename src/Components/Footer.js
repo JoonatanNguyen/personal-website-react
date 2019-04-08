@@ -19,7 +19,7 @@ class Footer extends React.Component {
 
 	render() {
 		return (
-			<div className='footer' data-aos='fade-up'>
+			<div className='footer'>
 				<div className='footer-text'>
 					<span className = 'line-decoration-footer'/>
 					<span>Get in touch through social media</span>

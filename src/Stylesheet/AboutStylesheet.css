@@ -1,3 +1,8 @@
+.about-container {
+	overflow: auto;
+	height: 100%;
+}
+
 .about-introduction-section{
 	width: 100%;
 	height: 640px;
@@ -114,7 +119,7 @@
 .project-show-container {
 	display: flex;
 	flex-direction: row;
-	padding-top: 10px;
+	padding-top: 4px;
 }
 
 
