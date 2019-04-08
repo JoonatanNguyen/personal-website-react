@@ -63,7 +63,6 @@ class ClinicScreen extends React.Component {
 						projectDemoImage={ClinicScreenMonitor}
 					/>
 				</div>
-				<TheEndSection/>
 				<div className="project-show-container">
 					{this.state.moreProjects.map((moreProjects, id) => (
 						<MoreProjectShow

@@ -4,7 +4,6 @@ import '../Stylesheet/RecipeProjectStyleSheet.css';
 
 import RecipeVideoBackground from '../Assets/videos/Recipe-search-bg-video.mp4';
 import RecipeDemoPicture from '../Assets/images/recipe-project-demo.png';
-import RecipeDemoSelectedFood from '../Assets/images/recipe-project-selected-demo.png';
 import RecipeDemoChosenRecipe from '../Assets/images/recipe-project-recipe-demo.png';
 
 import ProjectDescription from './ProjectDescription';
@@ -68,7 +67,6 @@ class RecipeSearchProject extends React.Component {
 						projectDemoImage={RecipeDemoChosenRecipe}
 					/>
 				</div>
-				<TheEndSection/>
 				<div className="project-show-container">
 					{this.state.moreProjects.map((moreProjects, id) => (
 						<MoreProjectShow

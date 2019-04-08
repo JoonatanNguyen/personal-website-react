@@ -119,7 +119,6 @@
 .project-show-container {
 	display: flex;
 	flex-direction: row;
-	padding-top: 4px;
 }
 
 

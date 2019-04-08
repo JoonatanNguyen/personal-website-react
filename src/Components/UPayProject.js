@@ -75,7 +75,6 @@ class UPayProject extends React.Component {
 					projectDemoImage={UPayDemoPicPersonalInfo}
 				/>
 			</div>
-			<TheEndSection/>
 			<div className="project-show-container">
 				{this.state.moreProjects.map((moreProjects, id) => (
 					<MoreProjectShow

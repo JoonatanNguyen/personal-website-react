@@ -13,11 +13,11 @@ const routesArray = [about, resume, recipeSearch, upay, insuranceClaim, clinicPr
 
 const ContactLinkSection = () => (
 	!isCurrentRouteInWhiteListRoutes(routesArray) && <div className="contact-footer">
-		<a href="https://www.linkedin.com/in/minh-nguyen-a0315b151/">
+		<a href="https://www.linkedin.com/in/minh-nguyen-a0315b151/" target="_blank">
 			<img className="contact-linkedin-logo" src={ContactLinkedInLogo} alt="LinkedIn logo"/>
 		</a>
 		<div className="divider">|</div>
-		<a href="minhnguyen181199@gmail.com">
+		<a href="minhnguyen181199@gmail.com" target="_blank">
 			<img className="contact-email-logo" src={ContactEmailLogo} alt="Email logo"/>
 		</a>
 		<a className="label-contact" href="minhnguyen181199@gmail.com">Get in touch</a>

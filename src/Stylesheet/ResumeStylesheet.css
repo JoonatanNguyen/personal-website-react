@@ -44,15 +44,13 @@
 	height: 1px;
 	border-bottom: 1px solid #ffffff;
 	width: 18%;
-	margin: 0 auto;
+	margin: 10px auto 10px auto;
 	opacity: 0.5;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 .button-download-CV {
-	width: 150px;
-	height: 50px;
+	width: 160px;
+	height: 60px;
 	border: 3px solid #ffc722;
 	display: flex;
 	margin-top: 40px;
@@ -67,7 +65,7 @@
 }
 
 .button-download-CV span {
-	margin: 16px auto 0 auto;
+	margin: 20px auto 0 auto;
 }
 
 .button-download-CV span:hover {
@@ -76,7 +74,6 @@
 
 .skill-education-section {
 	width: 100%;
-	/*height: auto;*/
 }
 
 .skill-education-section h2 {
@@ -136,13 +133,3 @@
 .under-field-sub-education {
 	margin-top: 50px;
 }
-
-/*.line-separate {*/
-	/*!*position: absolute;*!*/
-	/*display: block;*/
-	/*height: 1px;*/
-	/*border-bottom: 1px solid #A9A9A9;*/
-	/*width: 34%;*/
-	/*margin: 10px auto 10px auto;*/
-	/*opacity: 0.5;*/
-/*}*/

@@ -26,8 +26,12 @@ class Footer extends React.Component {
 					<span className = 'line-decoration-footer'/>
 				</div>
 				<div className='logo-connect'>
-					<img className='LinkedInLogo' src={LinkedInLogo} alt='LinkedIn logo'/>
-					<img className='EmailLogo' src={MailLogo} alt='E-mail logo'/>
+					<a href="https://www.linkedin.com/in/minh-nguyen-a0315b151/" target="_blank">
+						<img className='LinkedInLogo' src={LinkedInLogo} alt='LinkedIn logo'/>
+					</a>
+					<a href="minhnguyen181199@gmail.com" target="_blank">
+						<img className='EmailLogo' src={MailLogo} alt='E-mail logo'/>
+					</a>
 				</div>
 			</div>
 		)

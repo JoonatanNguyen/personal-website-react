@@ -99,7 +99,6 @@ class InsuranceProject extends React.Component {
 						projectDemoImage={AdminCreateView}
 					/>
 				</div>
-				{/*<TheEndSection/>*/}
 				<div className="project-show-container">
 					{this.state.moreProjects.map((moreProjects, id) => (
 						<MoreProjectShow

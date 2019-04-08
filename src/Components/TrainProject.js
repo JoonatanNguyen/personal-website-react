@@ -82,7 +82,6 @@ class Train extends React.Component {
 						projectDemoImage={CommuterShow}
 					/>
 				</div>
-				<TheEndSection/>
 				<div className="project-show-container">
 					{this.state.moreProjects.map((moreProjects, id) => (
 						<MoreProjectShow
