@@ -12,7 +12,6 @@ import CommuterShow from '../Assets/images/Commuter_Show.png';
 import ProjectDesctiption from './ProjectDescription';
 import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from'./MoreProjectSection';
-import TheEndSection from './ProjectEndGreetings';
 
 class Train extends React.Component {
 	constructor(props) {

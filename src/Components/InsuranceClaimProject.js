@@ -17,7 +17,6 @@ import AdminAgentListView from '../Assets/images/Admin_Agent_Lists_View.PNG';
 import ProjectDescription from './ProjectDescription';
 import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from './MoreProjectSection';
-import TheEndSection from './ProjectEndGreetings';
 
 class InsuranceProject extends React.Component {
 	constructor(props) {

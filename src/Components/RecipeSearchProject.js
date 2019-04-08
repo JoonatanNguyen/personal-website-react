@@ -9,7 +9,6 @@ import RecipeDemoChosenRecipe from '../Assets/images/recipe-project-recipe-demo.
 import ProjectDescription from './ProjectDescription';
 import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from './MoreProjectSection';
-import TheEndSection from './ProjectEndGreetings';
 
 class RecipeSearchProject extends React.Component {
 	constructor(props) {

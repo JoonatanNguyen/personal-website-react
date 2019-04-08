@@ -10,7 +10,6 @@ import UPayDemoPicPersonalInfo from '../Assets/images/project_UPAY_personal_Info
 import ProjectDescription from './ProjectDescription';
 import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from './MoreProjectSection';
-import TheEndSection from './ProjectEndGreetings';
 
 class UPayProject extends React.Component {
 	constructor(props) {

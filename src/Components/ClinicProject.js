@@ -8,7 +8,6 @@ import ClinicScreenMonitor from '../Assets/images/monitor-frame.png';
 import ProjectDescription from './ProjectDescription';
 import ProjectDetail from './ProjectDetail';
 import MoreProjectShow from './MoreProjectSection';
-import TheEndSection from './ProjectEndGreetings';
 
 class ClinicScreen extends React.Component {
 	constructor(props) {
