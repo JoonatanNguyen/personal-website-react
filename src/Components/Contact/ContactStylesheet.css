@@ -7,20 +7,20 @@
 }
 
 .profile-picture-div {
-	width: 50%;
-	height: 640px;
+	width: 400px;
+	height: 700px;
 }
 
 .picture-me {
 	width: 600px;
 	height: 550px;
-	background: url(../Assets/images/Profile_picture.jpg) center center;
+	background: url(../../Assets/images/Profile_picture.jpg) center center;
 	background-size: cover;
 	transition: 0.9s cubic-bezier(1, 0, 0, 2);
-	clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+	clip-path: polygon(300px 20px, 0 500px, 600px 500px);
 }
 .picture-me:hover {
-	clip-path: polygon(50% 19%, 0 76%, 100% 76%);
+	clip-path: polygon(300px 100px, 0 350px, 550px 350px);
 }
 
 .contact-form {

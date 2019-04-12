@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../Stylesheet/MoreProjectStylesheet.css';
+import './MoreProjectStylesheet.css';
 
 const MoreProject = ({
   borderTemplateClassName,

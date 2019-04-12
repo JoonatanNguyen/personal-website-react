@@ -2,9 +2,9 @@ import React from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
 
-import '../Stylesheet/ResumeStylesheet.css';
+import './ResumeStylesheet.css';
 
-import Footer from './Footer';
+import Footer from '../Footer/Footer';
 
 class Resume extends React.Component {
 	constructor(props) {

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import MiddleShape from './MiddleShape';
-import '../Stylesheet/HomeStylesheet.css';
+import MiddleShape from '../MiddleShape/MiddleShape';
+import './HomeStylesheet.css';
 
 const Home = () => (
 	<div className="home-container">

@@ -1,10 +1,10 @@
 import React from 'react';
 import AOS from "aos";
 
-import '../Stylesheet/FooterStylesheet.css';
+import './FooterStylesheet.css';
 
-import LinkedInLogo from "../Assets/images/linkedin-logo.jpg";
-import MailLogo from "../Assets/images/email-logo.jpg";
+import LinkedInLogo from "../../Assets/images/linkedin-logo.jpg";
+import MailLogo from "../../Assets/images/email-logo.jpg";
 
 
 class Footer extends React.Component {
@@ -29,7 +29,7 @@ class Footer extends React.Component {
 					<a href="https://www.linkedin.com/in/minh-nguyen-a0315b151/" target="_blank">
 						<img className='LinkedInLogo' src={LinkedInLogo} alt='LinkedIn logo'/>
 					</a>
-					<a href="minhnguyen181199@gmail.com" target="_blank">
+					<a href="mailto: minhnguyen181199@gmail.com">
 						<img className='EmailLogo' src={MailLogo} alt='E-mail logo'/>
 					</a>
 				</div>

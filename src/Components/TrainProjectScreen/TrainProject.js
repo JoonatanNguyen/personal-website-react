@@ -1,17 +1,17 @@
 import React from 'react';
 
-import '../Stylesheet/TrainProjectStylesheet.css';
+import './TrainProjectStylesheet.css';
 
-import TrainProjectVideoBackground from '../Assets/videos/Train-project-bg-video.mp4';
-import TrainFront from '../Assets/images/Front_page_TR_App.PNG';
-import LongDistanceChoose from '../Assets/images/Long_distance_choose_page.PNG';
-import LongDistanceShow from '../Assets/images/Long_Distance_Show_1.png';
-import CommuterChoose from '../Assets/images/Commuter_choose_page.PNG';
-import CommuterShow from '../Assets/images/Commuter_Show.png';
+import TrainProjectVideoBackground from '../../Assets/videos/Train-project-bg-video.mp4';
+import TrainFront from '../../Assets/images/Front_page_TR_App.PNG';
+import LongDistanceChoose from '../../Assets/images/Long_distance_choose_page.PNG';
+import LongDistanceShow from '../../Assets/images/Long_Distance_Show_1.png';
+import CommuterChoose from '../../Assets/images/Commuter_choose_page.PNG';
+import CommuterShow from '../../Assets/images/Commuter_Show.png';
 
-import ProjectDesctiption from './ProjectDescription';
-import ProjectDetail from './ProjectDetail';
-import MoreProjectShow from'./MoreProjectSection';
+import ProjectDesctiption from '../ProjectDescription/ProjectDescription';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import MoreProjectShow from '../MoreProjectSection/MoreProjectSection';
 
 class Train extends React.Component {
 	constructor(props) {

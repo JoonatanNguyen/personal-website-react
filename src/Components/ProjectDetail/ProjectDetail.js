@@ -1,12 +1,13 @@
 import React from 'react';
 
-import '../Stylesheet/ProjectDetailStylesheet.css';
+import './ProjectDetailStylesheet.css';
 
 const ProjectDetail = ({
   projectDemoImage
 }) => (
 	<div className="project-demo">
 		<img src={projectDemoImage} alt="" />
+		<span>Home Page</span>
 	</div>
 );
 

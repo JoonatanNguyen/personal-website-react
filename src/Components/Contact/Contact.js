@@ -1,8 +1,6 @@
 import React from 'react';
 
-import ContactLinkSection from './ContactLinkSection';
-
-import '../Stylesheet/ContactStylesheet.css';
+import './ContactStylesheet.css';
 
 const Contact = () => (
 	<div className="contact-container">
@@ -29,7 +27,6 @@ const Contact = () => (
 			</div>
 		</div>
 		<div className="contact-form-layer"/>
-		<ContactLinkSection/>
 	</div>
 );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../Stylesheet/ProjectDescriptionStylesheet.css';
+import './ProjectDescriptionStylesheet.css';
 
 const ProjectDescription = ({
 	descriptionContent,

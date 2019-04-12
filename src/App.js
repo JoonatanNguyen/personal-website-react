@@ -2,22 +2,22 @@ import React, { Component } from 'react';
 import { Router, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
 
-import Home from './Components/Home';
-import About from './Components/About';
-import Portfolio from './Components/Portfolio';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Header from './Components/Header';
-import ClinicProject from './Components/ClinicProject';
-import RecipeSearchProject from './Components/RecipeSearchProject';
-import TrainWebAppProject from './Components/TrainProject';
-import UPayProject from './Components/UPayProject';
-import InsuranceClaimProject from './Components/InsuranceClaimProject';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Portfolio from './Components/Porfolio/Portfolio';
+import Resume from './Components/Resume/Resume';
+import Contact from './Components/Contact/Contact';
+import Header from './Components/Header/Header';
+import ClinicProject from './Components/ClinicProjectScreen/ClinicProject';
+import RecipeSearchProject from './Components/RecipeSearchProjectScreen/RecipeSearchProject';
+import TrainWebAppProject from './Components/TrainProjectScreen/TrainProject';
+import UPayProject from './Components/UPayProjectScreen/UPayProject';
+import InsuranceClaimProject from './Components/InsuranceClaimProjectScreen/InsuranceClaimProject';
 
 import RoutePathConstants from './Constants/RoutePathConstants';
 import history from './history';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import ContactLinkSection from './Components/ContactLinkSection';
+import ContactLinkSection from './Components/ContactLinkSection/ContactLinkSection';
 
 const { home, about, portfolio, resume, contact, clinicProject, recipeSearch, trainWebApp, upay, insuranceClaim } = RoutePathConstants;
 

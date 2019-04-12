@@ -1,21 +1,27 @@
 import React from 'react';
 
-import '../Stylesheet/UPayStylesheet.css';
+import './UPayStylesheet.css';
 
-import UPayVideoBackGround from '../Assets/videos/UPay-project-video-bg.mp4';
-import UPayDemoVideo from '../Assets/videos/UPay-demo-video.mp4';
-import UPayDemoPictSubscription from '../Assets/images/project_UPAY2.png';
-import UPayDemoPicPersonalInfo from '../Assets/images/project_UPAY_personal_Info.png';
+import UPayVideoBackGround from '../../Assets/videos/UPay-project-video-bg.mp4';
+import UPayDemoVideo from '../../Assets/videos/UPay-demo-video.mp4';
+import UPayDemoPictSubscription from '../../Assets/images/project_UPAY2.png';
+import UPayDemoPicPersonalInfo from '../../Assets/images/project_UPAY_personal_Info.png';
 
-import ProjectDescription from './ProjectDescription';
-import ProjectDetail from './ProjectDetail';
-import MoreProjectShow from './MoreProjectSection';
+import ProjectDescription from '../ProjectDescription/ProjectDescription';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import MoreProjectShow from '../MoreProjectSection/MoreProjectSection';
 
 class UPayProject extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.state = { moreProjects: [] }
+		this.state = {
+			moreProjects: [],
+			projectDemo: [
+				{projectDemoImage: UPayDemoPictSubscription},
+				{projectDemoImage: UPayDemoPicPersonalInfo}
+			]
+		}
 	}
 
 	componentDidMount() {
@@ -67,12 +73,12 @@ class UPayProject extends React.Component {
 						<source src={UPayDemoVideo}/>
 					</video>
 				</div>
-				<ProjectDetail
-					projectDemoImage={UPayDemoPictSubscription}
-				/>
-				<ProjectDetail
-					projectDemoImage={UPayDemoPicPersonalInfo}
-				/>
+				{this.state.projectDemo.map((projectDemo, id) => (
+					<ProjectDetail
+						key={id}
+						projectDemoImage={projectDemo.projectDemoImage}
+					/>
+				))}
 			</div>
 			<div className="project-show-container">
 				{this.state.moreProjects.map((moreProjects, id) => (

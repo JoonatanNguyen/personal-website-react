@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import '../Stylesheet/PortfolioStylesheet.css';
+import './PortfolioStylesheet.css';
 
-import ProjectItemPanel from './ProjectItemPanel';
+import ProjectItemPanel from '../ProjectItemPanel/ProjectItemPanel';
 
 class Portfolio extends Component {
 	constructor(props, context) {

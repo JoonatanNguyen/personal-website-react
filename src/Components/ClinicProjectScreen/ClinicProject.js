@@ -1,13 +1,13 @@
 import React from 'react';
 
-import '../Stylesheet/ClinicProjectStylesheet.css';
+import './ClinicProjectStylesheet.css';
 
-import ClinicVideoBackground from '../Assets/videos/Clinic-project-bg-video.mp4';
-import ClinicScreenMonitor from '../Assets/images/monitor-frame.png';
+import ClinicVideoBackground from '../../Assets/videos/Clinic-project-bg-video.mp4';
+import ClinicScreenMonitor from '../../Assets/images/monitor-frame.png';
 
-import ProjectDescription from './ProjectDescription';
-import ProjectDetail from './ProjectDetail';
-import MoreProjectShow from './MoreProjectSection';
+import ProjectDescription from '../ProjectDescription/ProjectDescription';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import MoreProjectShow from '../MoreProjectSection/MoreProjectSection';
 
 class ClinicScreen extends React.Component {
 	constructor(props) {

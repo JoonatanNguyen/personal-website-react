@@ -2,12 +2,12 @@ import React from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
 
-import '../Stylesheet/AboutStylesheet.css';
+import './AboutStylesheet.css';
 
-import ProfilePictureWinter from '../Assets/images/profile-picture-winter.jpg';
+import ProfilePictureWinter from '../../Assets/images/profile-picture-winter.jpg';
 
-import MoreProjectShow from './MoreProjectSection';
-import Footer from'./Footer';
+import MoreProjectShow from '../MoreProjectSection/MoreProjectSection';
+import Footer from'../Footer/Footer';
 
 
 class About extends React.Component {

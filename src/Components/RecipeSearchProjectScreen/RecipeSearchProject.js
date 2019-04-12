@@ -1,20 +1,26 @@
 import React from 'react';
 
-import '../Stylesheet/RecipeProjectStyleSheet.css';
+import './RecipeProjectStyleSheet.css';
 
-import RecipeVideoBackground from '../Assets/videos/Recipe-search-bg-video.mp4';
-import RecipeDemoPicture from '../Assets/images/recipe-project-demo.png';
-import RecipeDemoChosenRecipe from '../Assets/images/recipe-project-recipe-demo.png';
+import RecipeVideoBackground from '../../Assets/videos/Recipe-search-bg-video.mp4';
+import RecipeDemoPicture from '../../Assets/images/recipe-project-demo.png';
+import RecipeDemoChosenRecipe from '../../Assets/images/recipe-project-recipe-demo.png';
 
-import ProjectDescription from './ProjectDescription';
-import ProjectDetail from './ProjectDetail';
-import MoreProjectShow from './MoreProjectSection';
+import ProjectDescription from '../ProjectDescription/ProjectDescription';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import MoreProjectShow from '../MoreProjectSection/MoreProjectSection';
 
 class RecipeSearchProject extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.state = { moreProjects: [] }
+		this.state = {
+			moreProjects: [],
+			projectDemo: [
+				{projectDemoImage: RecipeDemoPicture},
+				{projectDemoImage: RecipeDemoChosenRecipe}
+			]
+		}
 	}
 
 	componentDidMount() {
@@ -59,12 +65,12 @@ class RecipeSearchProject extends React.Component {
 					/>
 				</div>
 				<div className="recipe-project-detail">
-					<ProjectDetail
-						projectDemoImage={RecipeDemoPicture}
-					/>
-					<ProjectDetail
-						projectDemoImage={RecipeDemoChosenRecipe}
-					/>
+					{this.state.projectDemo.map((projectDemo, id) => (
+						<ProjectDetail
+							key={id}
+							projectDemoImage={projectDemo.projectDemoImage}
+						/>
+					))}
 				</div>
 				<div className="project-show-container">
 					{this.state.moreProjects.map((moreProjects, id) => (
