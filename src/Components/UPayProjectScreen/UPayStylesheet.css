@@ -39,54 +39,10 @@
 	text-align: center;
 }
 
-.upay-description h2 {
-	font-family: serif;
-	margin: auto;
-	padding-top: 75px;
-	font-size: 50px;
-	letter-spacing: 20px;
-}
-
-.upay-description .upay-divider {
-	width: 100px;
-	height: 2px;
-	background-color: black;
-	margin: 10px auto 0 auto;
-}
-
 .upay-description p {
 	width: 60%;
 	margin: 20px auto 0 auto;
 	line-height: 30px;
-}
-
-.sub-description-upay {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-	justify-content: space-between;
-	width: 50%;
-	margin: auto;
-	padding-bottom: 75px;
-}
-
-.sub-description-upay ul {
-	margin-top: 100px;
-	width: 50%;
-}
-
-.sub-description-upay ul span {
-	color: #467fd7;
-	border-bottom: 1px solid #467fd7;
-}
-
-.sub-description-upay li {
-	list-style: none;
-	margin-top: 20px;
-	width: 60%;
-	margin-left: 30px;
-	padding-left: 30px;
-	font-weight: bold;
 }
 
 .upay-project-detail {
@@ -108,3 +64,29 @@
 	box-shadow: 3px 7px 18px #88888894;
 }
 
+@media only screen and (max-width: 700px) {
+	.introduction-upay-project {
+		top: 35%;
+		left: 10%;
+		width: 378px;
+	}
+
+	.introduction-upay-project p {
+		font-size: 47px;
+		letter-spacing: 39px;
+	}
+}
+
+
+@media only screen and (max-width: 450px) {
+	.introduction-upay-project {
+		top: 30%;
+		left: 6%;
+		width: 311px;
+	}
+
+	.introduction-upay-project p {
+		font-size: 40px;
+		letter-spacing: 30px;
+	}
+}

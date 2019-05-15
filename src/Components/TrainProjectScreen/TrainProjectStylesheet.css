@@ -25,33 +25,11 @@
 
 .introduction-train-project p {
 	color: #ffc722;
-	font-size: 80px;
+	font-size: 69px;
 	font-weight: bold;
 	font-family: "Gill Sans", sans-serif;
 	margin: 0;
 	letter-spacing: 50px;
-}
-
-.train-description {
-	width: 100%;
-	position: relative;
-	background-color: white;
-	text-align: center;
-}
-
-.train-description h2 {
-	font-family: serif;
-	margin: auto;
-	padding-top: 75px;
-	font-size: 50px;
-	letter-spacing: 20px;
-}
-
-.train-description .train-divider {
-	width: 100px;
-	height: 2px;
-	background-color: black;
-	margin: 10px auto 0 auto;
 }
 
 .train-description p {
@@ -70,27 +48,35 @@
 	padding-bottom: 75px;
 }
 
-.sub-description-train ul {
-	margin-top: 100px;
-	width: 50%;
-}
-
-.sub-description-train ul span {
-	color: #ffc722;
-	border-bottom: 1px solid #ffc722;
-}
-
-.sub-description-train li {
-	list-style: none;
-	margin-top: 20px;
-	width: 60%;
-	margin-left: 30px;
-	padding-left: 30px;
-	font-weight: bold;
-}
-
 .train-app-detail {
 	width: 100%;
 	background-color: #b47844;
 	padding-bottom: 110px;
+}
+
+@media only screen and (max-width: 700px) {
+	.introduction-train-project {
+		top: 20%;
+		left: 10%;
+		width: 378px;
+	}
+
+	.introduction-train-project p {
+		font-size: 47px;
+		letter-spacing: 39px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.introduction-train-project {
+		top: 13%;
+		left: 10%;
+		width: 280px;
+	}
+
+	.introduction-train-project p {
+		font-size: 40px;
+		letter-spacing: 30px;
+	}
 }

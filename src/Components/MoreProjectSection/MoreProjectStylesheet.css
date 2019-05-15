@@ -69,3 +69,27 @@
 	color: white;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 800px) {
+	.button-project-link {
+		width: 80px;
+		height: 40px;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-project {
+		height: 250px;
+	}
+
+	.about-project img {
+		height: 250px;
+	}
+
+	.about-my-personal-work {
+		height: 416px;
+	}
+}
+

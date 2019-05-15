@@ -1,5 +1,4 @@
-.description {
-	background-color: white;
+.project-description {
 	text-align: center;
 }
 
@@ -67,4 +66,52 @@
 	border-bottom: 3px solid #467fd7;
 	width: 23%;
 	margin: 20px auto 10px auto;
+}
+
+@media only screen and (max-width: 800px) {
+	.project-description h2 {
+		font-size: 37px;
+	}
+
+	.description-content p {
+		width: 72% !important;
+		font-size: 14px;
+	}
+
+	.sub-description {
+		width: 78%;
+	}
+
+	.sub-description ul {
+		padding: 0;
+	}
+
+	.sub-description li {
+		margin-left: 0;
+		padding-left: 39px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.project-description h2 {
+		font-size: 28px;
+	}
+
+	.header-divider {
+		width: 300px;
+	}
+
+	.description-content p {
+		width: 72% !important;
+		font-size: 13px;
+	}
+
+	.sub-description span {
+		font-size: 15px;
+	}
+
+	.sub-description li {
+		padding-left: 27px;
+		font-size: 14px;
+	}
 }

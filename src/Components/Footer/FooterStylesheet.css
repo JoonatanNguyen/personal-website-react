@@ -1,4 +1,3 @@
-
 .footer {
 	width: 100%;
 	height: 360px;
@@ -39,14 +38,45 @@
 	margin-right: 30px;
 }
 
-.LinkedInLogo {
+.contact-logo-picture {
 	width: 100%;
 	height: 40px;
 	cursor: pointer;
 }
 
-.EmailLogo {
-	width: 100%;
-	height: 40px;
-	cursor: pointer;
+@media only screen and (max-width: 800px) {
+	.footer-text {
+		width: 450px;
+	}
+
+	.line-decoration-footer {
+		width: 13%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.footer-text {
+		width: 350px;
+		font-size: 16px;
+	}
+
+	.logo-connect {
+		width: 130px;
+	}
+
+	.contact-logo-picture {
+		height: 35px;
+	}
+
+	.footer {
+		height: 300px;
+	}
+
+	.footer-text {
+		font-size: 17px;
+	}
+
+	.line-decoration-footer {
+		width: 12%;
+	}
 }

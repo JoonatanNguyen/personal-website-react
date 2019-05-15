@@ -27,10 +27,10 @@ class Footer extends React.Component {
 				</div>
 				<div className='logo-connect'>
 					<a href="https://www.linkedin.com/in/minh-nguyen-a0315b151/" target="_blank">
-						<img className='LinkedInLogo' src={LinkedInLogo} alt='LinkedIn logo'/>
+						<img className='contact-logo-picture' src={LinkedInLogo} alt='LinkedIn logo'/>
 					</a>
 					<a href="mailto: minhnguyen181199@gmail.com">
-						<img className='EmailLogo' src={MailLogo} alt='E-mail logo'/>
+						<img className='contact-logo-picture' src={MailLogo} alt='E-mail logo'/>
 					</a>
 				</div>
 			</div>

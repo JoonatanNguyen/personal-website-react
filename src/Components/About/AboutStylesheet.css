@@ -1,5 +1,6 @@
 .about-container {
-	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	height: 100%;
 }
 
@@ -9,7 +10,7 @@
 	background-image: url("../../Assets/images/black-polygonal-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 640px;
+
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -66,11 +67,14 @@
 .brief-introduction-text {
 	width: 70%;
 	text-align: justify;
-	margin: 90px 30px 0 30px;
 	color: white;
 	font-size: 20px;
 	line-height: 25px;
 	font-family: "UniversLTStd",sans-serif;
+}
+
+.brief-introduction-text p {
+	margin: 50px 50px 0 50px;
 }
 
 .profile-picture {
@@ -119,6 +123,75 @@
 .project-show-container {
 	display: flex;
 	flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+	.introduction-div {
+		width: 0;
+	}
+
+	.introduction-div p {
+		font-size: 2em;
+		width: 450px;
+		text-align: center;
+	}
+
+	.about-me-section {
+		flex-direction: column;
+
+	}
+
+	.brief-introduction-text {
+		margin: 0;
+		width: 100%;
+	}
+
+	.brief-introduction-text p {
+		margin: 50px;
+	}
+
+	.profile-picture {
+		width: 100%;
+		justify-content: center;
+		padding-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.about-introduction-section {
+		height: 350px;
+	}
+
+	.introduction-div {
+		padding-top: 140px;
+	}
+
+	.greeting-label {
+		width: 300px;
+		font-size: 16px;
+	}
+
+	.line-decoration {
+		width: 18%;
+	}
+
+	.introduction-div p {
+		font-size: 25px;
+		width: 450px;
+		text-align: center;
+	}
+
+	.brief-introduction-text {
+		font-size: 17px;
+	}
+
+	.about-my-personal-work h2 {
+		font-size: 30px;
+	}
+
+	.about-my-personal-work p {
+		font-size: 17px;
+	}
 }
 
 

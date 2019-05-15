@@ -1,7 +1,8 @@
 .clinic-project-container {
 	width: 100%;
 	height: 100%;
-	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .clinic-project-top-section {
@@ -43,5 +44,31 @@
 	width: 100%;
 	background-color: grey;
 	padding-bottom: 110px;
+}
+
+@media only screen and (max-width: 700px) {
+	.introduction-clinic-project {
+		top: 26%;
+		left: 10%;
+		width: 378px;
+	}
+
+	.introduction-clinic-project p {
+		font-size: 47px;
+		letter-spacing: 39px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.introduction-clinic-project {
+		top: 20%;
+		left: 6%;
+		width: 311px;
+	}
+
+	.introduction-clinic-project p {
+		font-size: 40px;
+		letter-spacing: 30px;
+	}
 }
 

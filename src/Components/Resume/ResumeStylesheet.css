@@ -1,7 +1,8 @@
 .resume-container {
 	width: 100%;
 	height: 100%;
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .resume-top-section {
@@ -10,7 +11,6 @@
 	background-image: url("../../Assets/images/Resume-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 640px;
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -21,7 +21,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 800px;
+	width: 80%;
 }
 
 .resume-top-section h1 {
@@ -96,7 +96,6 @@
 }
 
 .skill {
-	height: 450px;
 	padding-top: 50px;
 }
 
@@ -127,9 +126,139 @@
 }
 
 .under-field-sub-div {
-	margin-top: 120px;
+	margin-top: 130px;
 }
 
 .under-field-sub-education {
 	margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+	.resume-introduction-div {
+		width: 450px;
+	}
+
+	.line-decoration-resume {
+		width: 15%;
+	}
+
+	.resume-div-smallText {
+		width: 500px;
+	}
+
+	.resume-detail {
+		flex-direction: column;
+	}
+
+	.skill h2 {
+		width: 200px;
+		margin-left: 50px;
+	}
+
+	.sub-skill-div {
+		width: 100%;
+		height: auto;
+		margin-left: 50px;
+	}
+
+	.sub-skill-div br {
+		display: none;
+	}
+
+	.under-field-sub-div {
+		margin-top: 0;
+	}
+
+	.skill {
+		height: auto;
+	}
+
+	.education {
+		padding-top: 0;
+		padding-bottom: 50px;
+		height: auto;
+	}
+
+	.education h2 {
+		width: 115px;
+		height: 45px;
+		margin: 30px 0 0 50px;
+	}
+
+	.sub-education-div {
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+		margin-left: 50px;
+	}
+
+	.under-field-sub-education {
+		margin-top: 20px;
+	}
+
+	.sub-skill-div li {
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.resume-top-section {
+		height: 450px;
+	}
+
+	.resume-introduction-div {
+		width: 350px;
+		padding-top: 130px;
+	}
+
+	.resume-introduction-div h1 {
+		font-size: 28px;
+	}
+
+	.resume-div-smallText {
+		width: 380px;
+		font-size: 15px;
+	}
+
+	.line-decoration-resume {
+		width: 8%;
+	}
+
+	.skill h2 {
+		font-size: 22px;
+		height: 30px;
+		width: 180px;
+		margin-left: 22px;
+	}
+
+	.education h2 {
+		font-size: 22px;
+		height: 30px;
+		width: 105px;
+		margin-left: 22px;
+	}
+
+	.sub-skill-div {
+		margin-left: 22px;
+	}
+
+	.sub-skill-div li {
+		font-size: 14px;
+	}
+
+	.skill-education-section p {
+		font-size: 14px;
+	}
+
+	.sub-education-div {
+		margin-left: 22px;
+	}
+
+	.specific-info {
+		font-size: 13px;
+	}
+
+	.education-description {
+		font-size: 14px;
+	}
 }

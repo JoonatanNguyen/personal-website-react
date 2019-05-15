@@ -44,7 +44,7 @@ class About extends React.Component {
 				</div>
 				<div className="about-me-section">
 					<div className="brief-introduction-text">
-					<span>
+					<p>
 						I am a
 						<span className="highlight-word"> fast </span>learner, a
 						<span className="highlight-word"> person </span>who is willing to
@@ -61,7 +61,7 @@ class About extends React.Component {
 						and be positive in order to encourage them. Always
 						<span className="highlight-word"> develop </span> myself and
 						<span className="highlight-word"> be the best </span> as I can at work as well as in leisure time.
-					</span>
+					</p>
 					</div>
 					<div className="profile-picture">
 						<img src={ProfilePictureWinter} alt="profile"/>

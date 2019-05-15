@@ -174,3 +174,123 @@
 	font-size: 15px;
 	font-style: italic;
 }
+.project-controller {
+	display: none;
+}
+ /*For desktop:*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 700px) {
+	#first {
+		width: 600px;
+		/*margin: 30px auto 0 auto;*/
+		margin: auto 60px auto 60px;
+		height: 500px;
+	}
+
+	#second {
+		/*display: none;*/
+		width: 600px;
+		/*margin: 30px auto 0 auto;*/
+		margin: auto 60px auto 60px;
+		height: 500px;
+	}
+
+	#third {
+		/*display: none;*/
+		width: 600px;
+		/*margin: 30px auto 0 auto;*/
+		margin: auto 60px auto 60px;
+		height: 500px;
+	}
+
+	#fourth {
+		/*display: none;*/
+		width: 600px;
+		/*margin: 30px auto 0 auto;*/
+		margin: auto 60px auto 60px;
+		height: 500px;
+	}
+
+	#fifth {
+		/*display: none;*/
+		width: 600px;
+		/*margin: 30px auto 0 auto;*/
+		margin: auto 60px auto 60px;
+		height: 500px;
+	}
+
+	.portfolio-container {
+		/*display: flex;*/
+		/*overflow: auto;*/
+	}
+
+	.project-controller {
+		background-color: rgba(211, 211, 211, 0.2);
+		width: 30px;
+		display: flex;
+		margin: 8% 0 25% 0;
+	}
+
+	.project-controller #back-arrow {
+		width: 30px;
+	}
+
+	.project-controller:hover {
+		background-color: rgba(211, 211, 211, 0.42);
+		cursor: pointer;
+	}
+
+	.project-controller #forward-arrow {
+		width: 30px;
+		height: 30px;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-height: 650px) {
+	#first {
+		width: 600px;
+		margin: 30px 60px 0 60px;
+		height: 430px;
+	}
+
+	#second {
+		width: 600px;
+		margin: 30px 60px 0 60px;
+		height: 430px;
+	}
+
+	#third {
+		width: 600px;
+		margin: 30px 60px 0 60px;
+		height: 430px;
+	}
+
+	#fourth {
+		width: 600px;
+		margin: 30px 60px 0 60px;
+		height: 430px;
+	}
+
+	#fifth {
+		width: 600px;
+		margin: 30px 60px 0 60px;
+		height: 430px;
+	}
+
+	.project-name {
+		margin-top: 20px;
+	}
+}

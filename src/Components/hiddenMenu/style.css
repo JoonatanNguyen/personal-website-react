@@ -1,0 +1,34 @@
+.hidden-menu-container {
+
+}
+
+.menu-box-shape {
+	width: 30px;
+	height: 30px;
+	border: 2px solid white;
+	transform: rotate(45deg);
+	margin: 13px 16px;
+	cursor: pointer;
+}
+
+.show-hidden-menu {
+	position: fixed;
+	z-index: 200;
+	top: 60px;
+	right: 12px;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+	flex-direction: column;
+	background-color: black;
+	border: 1px solid #ffc722;
+}
+
+.show-hidden-menu ul {
+	list-style: none;
+}
+
+.show-hidden-menu a {
+	margin: 10px;
+	text-align: center;
+}

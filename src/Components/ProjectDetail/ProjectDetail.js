@@ -7,7 +7,7 @@ const ProjectDetail = ({
 }) => (
 	<div className="project-demo">
 		<img src={projectDemoImage} alt="" />
-		<span>Home Page</span>
+		{/*<span>Home Page</span>*/}
 	</div>
 );
 
