@@ -1,0 +1,47 @@
+.navigation-bar-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+
+.navigation-bar-container a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.navigation-bar {
+	height: 55px;
+	width: 50%;
+	color: white;
+	font-size: 20px;
+	margin: auto;
+	border-bottom: 1px solid grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation-bar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-bar a:hover {
+	color: #ffc722;
+	text-decoration: line-through;
+}
+
+.not-home {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px 0 10px;
+	width: 37%;
+	border-bottom: 0 solid black;
+}
+
+.nav-link-home:hover {
+	color: #ffc722;
+	text-decoration: line-through;
+}

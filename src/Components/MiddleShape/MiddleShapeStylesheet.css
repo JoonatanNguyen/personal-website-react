@@ -193,9 +193,127 @@
 
 /*rotate diamond shape*/
 .rotate-first {
-	transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
+	 transform: rotate(45deg);
+	 -webkit-transform: rotate(45deg);
+	 -moz-transform: rotate(45deg);
+	 -ms-transform: rotate(45deg);
+	 -o-transform: rotate(45deg);
+ }
+
+@media only screen and (max-width: 800px) {
+  .triangle-one, .triangle-two, .triangle-three, .triangle-four, .line-one, .line-two, .line-three {
+	 display: none;
+  }
+
+	.navigation-bar {
+		width: auto !important;
+	}
+
+	.navigation-bar-container a {
+		margin: 20px 10px 0 10px !important;
+	}
+
+	.square-shape {
+		width: 340px;
+		height: 340px;
+		top: 34%;
+		left: 60%;
+	}
+
+	.diamond-shape {
+		width: 340px;
+		height: 340px;
+		top: 34%;
+		left: 60%;
+	}
+
+	.diamond-shape::after {
+		width: 300px;
+		height: 300px;
+		left: 18px;
+		top: 18px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.navigation-bar-container a {
+		font-size: 17px !important;
+	}
+
+	.square-shape {
+		display: none;
+	}
+
+	.diamond-shape {
+		width: 310px;
+		height: 310px;
+		top: 34%;
+		left: 74%;
+		border: 5px solid #177DEB;
+		background-image: url("../../Assets/images/star_background.gif");
+	}
+
+	.diamond-shape p {
+		transform: none;
+	}
+
+	.diamond-shape h2 {
+		transform: none;
+		color: #ffc722;
+		left: 15px;
+	}
+
+	.diamond-shape::after {
+		display: none;
+	}
+
+	.rotate-first {
+		transform: none;
+	}
+
+	.line-one {
+		display: block;
+		width: 560px;
+		top: 300px;
+		left: -250px;
+		transform: rotate(-60deg);
+	}
+
+	.line-two {
+		display: block;
+		width: 660px;
+		top: 290px;
+		left: -240px;
+		transform: rotate(60deg);
+	}
+
+	.line-three {
+		display: block;
+		width: 450px;
+		top: 320px;
+		left: -160px;
+	}
+}
+
+@media only screen and (max-height: 750px) {
+	.square-shape {
+		width: 340px;
+		height: 340px;
+		top: 8%;
+		left: 60%;
+	}
+
+	.diamond-shape {
+		width: 340px;
+		height: 340px;
+		top: 8%;
+		left: 60%;
+	}
+
+	.diamond-shape::after {
+		width: 300px;
+		height: 300px;
+		left: 18px;
+		top: 18px;
+	}
 }
