@@ -76,17 +76,19 @@ class Resume extends React.Component {
 					</div>
 					<div className="resume-detail education">
 						<h2>Education</h2>
-						<div className="sub-education-div">
-							<p>Lahti University of Applied Sciences(Finland) - Bachelor's degree</p>
-							<span className="specific-info">Business Information Technology | 2017- PRESENT</span>
-							<br/>
-							<span className="education-description">Passion in programming and develop to be a web developer</span>
-						</div>
-						<div className="sub-education-div">
-							<p className="under-field-sub-education">Tran Dai Nghia High School for The Gifted</p>
-							<span className="specific-info">High School | 2014 - 2017</span>
-							<br/>
-							<span className="education-description">Specialized in English</span>
+						<div className="education-div">
+							<div className="sub-education-div">
+								<p>Lahti University of Applied Sciences(Finland) - Bachelor's degree</p>
+								<span className="specific-info">Business Information Technology | 2017- PRESENT</span>
+								<br/>
+								<span className="education-description">Passion in programming and develop to be a web developer</span>
+							</div>
+							<div className="sub-education-div">
+								<p className="under-field-sub-education">Tran Dai Nghia High School for The Gifted</p>
+								<span className="specific-info">High School | 2014 - 2017</span>
+								<br/>
+								<span className="education-description">Specialized in English</span>
+							</div>
 						</div>
 					</div>
 				</div>

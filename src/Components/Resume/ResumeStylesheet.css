@@ -113,9 +113,13 @@
 	text-align: left;
 }
 
+.education-div {
+	width: 60%;
+}
+
 .sub-education-div {
 	width: 56%;
-	height: 280px;
+	/*height: 280px;*/
 	text-align: left;
 	padding-left: 63px;
 }
