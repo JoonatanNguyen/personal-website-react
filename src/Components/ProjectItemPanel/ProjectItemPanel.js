@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 
 const ProjectItemPanel = ({
 	projectItemId,
-  borderTemplateClassName,
-  buttonTextColor,
-  projectNumberColor,
-  projectNumber,
-  projectName,
-  projectImageSrc,
+	borderTemplateClassName,
+	buttonTextColor,
+	projectNumberColor,
+	projectNumber,
+	projectName,
+	projectImageSrc,
 	projectTechnologyUsedLabel,
-  overlayPosition,
-  projectLink,
-  projectLinkSectionPosition,
-  projectInfoSectionPosition
+	overlayPosition,
+	projectLink,
+	projectLinkSectionPosition,
+	projectInfoSectionPosition
 }) => (
 	<div id={projectItemId} className={`project-panel ${borderTemplateClassName}`}>
 		<div className={`project-link-section ${projectLinkSectionPosition}`}>
