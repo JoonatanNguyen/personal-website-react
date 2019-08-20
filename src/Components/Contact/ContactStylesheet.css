@@ -14,7 +14,7 @@
 .picture-me {
 	width: 600px;
 	height: 700px;
-	background: url(../../Assets/images/Profile_picture.jpg) center center;
+	background: url(../../Assets/images/contactImage.jpg) center center;
 	background-size: cover;
 	margin: auto 0 auto 0;
 	transition: 0.9s cubic-bezier(1, 0, 0, 2);
