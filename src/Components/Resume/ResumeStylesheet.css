@@ -58,6 +58,7 @@
 	font-size: 17px;
 	font-weight: bold;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .button-download-CV:hover {

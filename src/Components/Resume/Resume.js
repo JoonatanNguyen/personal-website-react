@@ -27,9 +27,9 @@ class Resume extends React.Component {
 							<span>Find out what is my skill and my background</span>
 							<span className ="line-decoration-resume"/>
 						</div>
-						<div className="button-download-CV">
+						<a href="https://drive.google.com/open?id=1QPWhbTHKx-sXzzr-0_RvY4WL_YDa6cx_" target="_blank" className="button-download-CV" download >
 							<span>Download my CV</span>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div className="skill-education-section">
