@@ -4,6 +4,8 @@
 	display: flex;
 	flex-direction: row;
 	background-color: black;
+	flex-wrap: nowrap;
+	overflow-x: auto;
 }
 
 .yellow-border {
@@ -21,7 +23,7 @@
 	margin-left: 2%;
 	position: relative;
 	text-align: center;
-
+	flex:  0 0 auto;
 }
 
 .project-info-section {
@@ -63,29 +65,14 @@
 	bottom: 50%;
 }
 
-#first:hover .bottom {
+.yellow-border:hover .bottom {
 	bottom: 0;
 	height: 50%;
 }
 
-#second:hover .top {
+.blue-border:hover .top {
 	height: 50%;
 	top: 0;
-}
-
-#third:hover .bottom {
-	bottom: 0;
-	height: 50%;
-}
-
-#fourth:hover .top {
-	height: 50%;
-	top: 0;
-}
-
-#fifth:hover .bottom {
-	bottom: 0;
-	height: 50%;
 }
 
 .project-link-section {
@@ -192,48 +179,16 @@
 .col-12 {width: 100%;}
 
 @media only screen and (max-width: 700px) {
-	#first {
-		width: 600px;
-		/*margin: 30px auto 0 auto;*/
+	.project-panel {
+		width: 700px;
 		margin: auto 60px auto 60px;
 		height: 500px;
-	}
-
-	#second {
-		/*display: none;*/
-		width: 600px;
-		/*margin: 30px auto 0 auto;*/
-		margin: auto 60px auto 60px;
-		height: 500px;
-	}
-
-	#third {
-		/*display: none;*/
-		width: 600px;
-		/*margin: 30px auto 0 auto;*/
-		margin: auto 60px auto 60px;
-		height: 500px;
-	}
-
-	#fourth {
-		/*display: none;*/
-		width: 600px;
-		/*margin: 30px auto 0 auto;*/
-		margin: auto 60px auto 60px;
-		height: 500px;
-	}
-
-	#fifth {
-		/*display: none;*/
-		width: 600px;
-		/*margin: 30px auto 0 auto;*/
-		margin: auto 60px auto 60px;
-		height: 500px;
+		flex: unset;
 	}
 
 	.portfolio-container {
-		/*display: flex;*/
-		/*overflow: auto;*/
+		flex-wrap: unset;
+		overflow-x: hidden;
 	}
 
 	.project-controller {
@@ -260,34 +215,10 @@
 }
 
 @media only screen and (max-height: 650px) {
-	#first {
+	.project-panel {
 		width: 600px;
-		margin: 30px 60px 0 60px;
-		height: 430px;
-	}
-
-	#second {
-		width: 600px;
-		margin: 30px 60px 0 60px;
-		height: 430px;
-	}
-
-	#third {
-		width: 600px;
-		margin: 30px 60px 0 60px;
-		height: 430px;
-	}
-
-	#fourth {
-		width: 600px;
-		margin: 30px 60px 0 60px;
-		height: 430px;
-	}
-
-	#fifth {
-		width: 600px;
-		margin: 30px 60px 0 60px;
-		height: 430px;
+			margin: 57px 60px 0 60px;
+			height: 449px;
 	}
 
 	.project-name {

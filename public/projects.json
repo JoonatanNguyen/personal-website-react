@@ -69,6 +69,34 @@
       "projectLink": "insuranceClaim",
       "projectLinkSectionPosition": "top",
       "projectInfoSectionPosition": "bottom"
+    },
+    {
+      "projectItemId": "sixth",
+      "borderTemplateClassName": "blue-border",
+      "buttonTextColor": "yellow-link",
+      "projectNumberColor": "blue",
+      "projectNumber": "06",
+      "projectName": "Mesensei Web App",
+      "projectImageSrc": "online-payment-project-picture.jpg",
+      "projectTechnologyUsedLabel": "React.js, Redux, Restful API",
+      "overlayPosition": "top",
+      "projectLink": "#",
+      "projectLinkSectionPosition": "bottom",
+      "projectInfoSectionPosition": "top"
+    },
+    {
+      "projectItemId": "Seventh",
+      "borderTemplateClassName": "yellow-border",
+      "buttonTextColor": "blue-link",
+      "projectNumberColor": "yellow",
+      "projectNumber": "07",
+      "projectName": "Mentor widget",
+      "projectImageSrc": "insurance-claim-project-picture.jpg",
+      "projectTechnologyUsedLabel": "HTML, CSS, JQuery",
+      "overlayPosition": "bottom",
+      "projectLink": "#",
+      "projectLinkSectionPosition": "top",
+      "projectInfoSectionPosition": "bottom"
     }
   ]
 }
