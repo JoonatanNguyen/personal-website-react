@@ -91,6 +91,23 @@ class Resume extends React.Component {
 							</div>
 						</div>
 					</div>
+					<div className="resume-detail education">
+						<h2>Work Experience</h2>
+						<div className="education-div">
+							<div className="sub-education-div">
+								<p>Mesensei Oy - Internship (June 2019 - Present)</p>
+								<span className="specific-info">Front-end Developer</span>
+								<br/>
+								<span className="education-description">Develop Mesensei private web communication platform for community of company’s mobile native app.</span>
+								<br/>
+								<span className="education-description"><span className="highlight-word" style={ {fontWeight: 'bold'} }> Technology:</span> React Js, REST APIs.</span>
+								<br/>
+								<span className="education-description">Develop web ask researcher widget to support project with Aalto University.</span>
+								<br/>
+								<span className="education-description"><span className="highlight-word" style={ {fontWeight: 'bold'} }> Technology:</span> HTML5, CSS3, JavaScript, jQuery, REST APIs.</span>
+							</div>
+						</div>
+					</div>
 				</div>
 				<Footer/>
 			</div>
